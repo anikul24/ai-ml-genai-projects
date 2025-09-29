@@ -77,6 +77,6 @@ About Me
 I’m a Senior Data Engineer transitioning into ML & AI Engineering with 15+ years of IT experience.
 Strong background in Snowflake, SQL, Python, Airflow, AWS, now building expertise in ML, MLOps, and Generative AI.
 
-💼 LinkedIn
+💼LinkedIn
 
-📧 your.email@example.com
+📧 a.kulkarni24@gmail.com
