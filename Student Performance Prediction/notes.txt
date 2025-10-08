@@ -1,0 +1,54 @@
+ 0   gender                       1000 non-null   object
+ 1   race_ethnicity               1000 non-null   object
+ 2   parental_level_of_education  1000 non-null   object
+ 3   lunch                        1000 non-null   object
+ 4   test_preparation_course      1000 non-null   object
+ 5   math_score                   1000 non-null   int64 
+ 6   reading_score                1000 non-null   int64 
+ 7   writing_score                1000 non-null   int64
+
+ 
+ 
+ Total students with math_score_full full score:  7
+Total students with reading_score_full full score:  17
+Total students with writing_score_full full score:  14
+
+
+
+Numeric features:  ['math_score', 'reading_score', 'writing_score']
+Categorial features:  ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+
+
+gender                          2
+race_ethnicity                  5
+parental_level_of_education     6
+lunch                           2
+test_preparation_course         2
+math_score                     81
+reading_score                  72
+writing_score                  77
+dtype: int64
+
+
+
+
+Categoeries gender:  ['female' 'male']
+Categoeries race_ethnicity:  ['group B' 'group C' 'group A' 'group D' 'group E']
+Categoeries parental_level_of_education     :  ["bachelor's degree" 'some college' "master's degree" "associate's degree"  'high school' 'some high school']
+Categoeries lunch     :  ['standard' 'free/reduced']
+Categoeries test_preparation_course     :  ['none' 'completed']
+ 
+ 
+	math_score	reading_score	writing_score
+count	1000.00000	1000.000000	1000.000000
+mean	66.08900	69.169000	68.054000
+std	15.16308	14.600192	15.195657
+min	0.00000	17.000000	10.000000
+25%	57.00000	59.000000	57.750000
+50%	66.00000	70.000000	69.000000
+75%	77.00000	79.000000	79.000000
+max	100.00000	100.000000	100.000000
+
+
+
+
