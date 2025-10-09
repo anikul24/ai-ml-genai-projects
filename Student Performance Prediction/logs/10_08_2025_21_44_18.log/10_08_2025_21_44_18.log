@@ -1,0 +1,7 @@
+[2025-10-08 21:44:18,258] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2025-10-08 21:44:18,863] 20 root - INFO - Entered the data ingestion method or component
+[2025-10-08 21:44:18,867] 23 root - INFO - Read CSV file in datframe
+[2025-10-08 21:44:18,867] 29 root - INFO - Created artifacts folder if not exists
+[2025-10-08 21:44:18,869] 33 root - INFO - Saved Raw data
+[2025-10-08 21:44:18,870] 36 root - INFO - Train test split initiated
+[2025-10-08 21:44:18,873] 42 root - INFO - Ingestion of the data is completed

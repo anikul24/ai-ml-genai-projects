@@ -3,11 +3,12 @@ import os
 from datetime import datetime
 
 
-print(os.path.dirname(os.path.abspath(__file__)))
+#print(os.path.dirname(os.path.abspath(__file__)))
 
 LOG_FILE=f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
-log_path=os.path.join(os.getcwd(),"logs",LOG_FILE)
+log_path=os.path.join(os.getcwd(),"logs")
 os.makedirs(log_path,exist_ok=True)
+
 LOG_FILE_PATH=os.path.join(log_path,LOG_FILE) 
 
 logging.basicConfig(
@@ -18,3 +19,4 @@ logging.basicConfig(
 )
 
 
+logging.info("Logger test: This should create a log file.")
