@@ -1,0 +1,39 @@
+[2025-10-09 15:25:53,817] 22 root - INFO - Logger test: This should create a log file.
+[2025-10-09 15:25:54,019] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2025-10-09 15:25:55,233] 25 root - INFO - Entered the data ingestion method or component
+[2025-10-09 15:25:55,237] 28 root - INFO - Read CSV file in datframe
+[2025-10-09 15:25:55,237] 34 root - INFO - Created artifacts folder if not exists
+[2025-10-09 15:25:55,240] 38 root - INFO - Saved Raw data
+[2025-10-09 15:25:55,240] 41 root - INFO - Train test split initiated
+[2025-10-09 15:25:55,243] 47 root - INFO - Ingestion of the data is completed
+[2025-10-09 15:25:55,245] 66 root - INFO - Read train and test data completed
+[2025-10-09 15:25:55,247] 68 root - INFO - Obtaining preprocessing object
+[2025-10-09 15:25:55,247] 49 root - INFO - Numerical and Categorical pipeline completed
+[2025-10-09 15:25:55,248] 82 root - INFO - Apply preprocessing object on train and test df
+[2025-10-09 15:25:55,258] 90 root - INFO - Saved preprocessing object
+[2025-10-09 15:25:55,258] 91 root - INFO - Saved transformed train and test array
+[2025-10-09 15:25:55,261] 37 root - INFO - Entered the data initiate_model_trainer component
+[2025-10-09 15:25:55,261] 38 root - INFO - Splitting training and test input data
+[2025-10-09 15:25:55,261] 46 root - INFO - Models are being defined
+[2025-10-09 15:25:55,262] 29 root - INFO - model_name: Random Forest
+[2025-10-09 15:25:55,504] 38 root - INFO - Random Forest Train score: 0.9763994753439128 Test Score: 0.851633340191638
+[2025-10-09 15:25:55,504] 29 root - INFO - model_name: Decision Tree
+[2025-10-09 15:25:55,508] 38 root - INFO - Decision Tree Train score: 0.9996534669718089 Test Score: 0.7521969405568542
+[2025-10-09 15:25:55,508] 29 root - INFO - model_name: Gradient Boosting
+[2025-10-09 15:25:55,586] 38 root - INFO - Gradient Boosting Train score: 0.9050396644022572 Test Score: 0.872356930525283
+[2025-10-09 15:25:55,586] 29 root - INFO - model_name: Linear Regression
+[2025-10-09 15:25:55,666] 38 root - INFO - Linear Regression Train score: 0.8743172040139593 Test Score: 0.8804332983749564
+[2025-10-09 15:25:55,667] 29 root - INFO - model_name: XGBRegressor
+[2025-10-09 15:25:55,733] 38 root - INFO - XGBRegressor Train score: 0.9954995444196413 Test Score: 0.8212204901494256
+[2025-10-09 15:25:55,733] 29 root - INFO - model_name: CatBoosting Regressor
+[2025-10-09 15:25:56,762] 38 root - INFO - CatBoosting Regressor Train score: 0.9589358676277713 Test Score: 0.8518305378322716
+[2025-10-09 15:25:56,762] 29 root - INFO - model_name: AdaBoost Regressor
+[2025-10-09 15:25:56,859] 38 root - INFO - AdaBoost Regressor Train score: 0.8499985417846084 Test Score: 0.8445212875190382
+[2025-10-09 15:25:56,859] 29 root - INFO - model_name: Lasso
+[2025-10-09 15:25:56,864] 38 root - INFO - Lasso Train score: 0.8454249925539641 Test Score: 0.8564341512770285
+[2025-10-09 15:25:56,864] 29 root - INFO - model_name: Ridge
+[2025-10-09 15:25:56,868] 38 root - INFO - Ridge Train score: 0.8743099013606639 Test Score: 0.8805671790733921
+[2025-10-09 15:25:56,868] 29 root - INFO - model_name: KNeighbors Regressor
+[2025-10-09 15:25:56,982] 38 root - INFO - KNeighbors Regressor Train score: 0.698829642221767 Test Score: 0.47561174068704326
+[2025-10-09 15:25:56,982] 68 root - INFO - Best model found, Model name: Ridge, R2 score: 0.8805671790733921
+[2025-10-09 15:25:56,982] 76 root - INFO - Best model is being saved
