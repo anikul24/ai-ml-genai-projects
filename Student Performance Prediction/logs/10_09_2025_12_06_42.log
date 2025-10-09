@@ -1,0 +1,2 @@
+[2025-10-09 12:06:42,460] 22 root - INFO - Logger test: This should create a log file.
+[2025-10-09 12:06:42,646] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
