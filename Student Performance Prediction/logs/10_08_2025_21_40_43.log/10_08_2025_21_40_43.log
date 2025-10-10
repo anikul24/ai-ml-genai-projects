@@ -1,0 +1,3 @@
+[2025-10-08 21:40:43,510] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2025-10-08 21:40:44,602] 20 root - INFO - Entered the data ingestion method or component
+[2025-10-08 21:40:44,606] 23 root - INFO - Read CSV file in datframe

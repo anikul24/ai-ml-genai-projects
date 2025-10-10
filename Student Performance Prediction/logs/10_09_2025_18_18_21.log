@@ -1,0 +1,67 @@
+[2025-10-09 18:18:21,207] 22 root - INFO - Logger test: This should create a log file.
+[2025-10-09 18:18:21,975] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2025-10-09 18:18:24,841] 25 root - INFO - Entered the data ingestion method or component
+[2025-10-09 18:18:24,854] 28 root - INFO - Read CSV file in datframe
+[2025-10-09 18:18:24,854] 34 root - INFO - Created artifacts folder if not exists
+[2025-10-09 18:18:24,859] 38 root - INFO - Saved Raw data
+[2025-10-09 18:18:24,859] 41 root - INFO - Train test split initiated
+[2025-10-09 18:18:24,868] 47 root - INFO - Ingestion of the data is completed
+[2025-10-09 18:18:24,872] 66 root - INFO - Read train and test data completed
+[2025-10-09 18:18:24,873] 68 root - INFO - Obtaining preprocessing object
+[2025-10-09 18:18:24,873] 49 root - INFO - Numerical and Categorical pipeline completed
+[2025-10-09 18:18:24,876] 82 root - INFO - Apply preprocessing object on train and test df
+[2025-10-09 18:18:24,899] 90 root - INFO - Saved preprocessing object
+[2025-10-09 18:18:24,899] 91 root - INFO - Saved transformed train and test array
+[2025-10-09 18:18:24,903] 37 root - INFO - Entered the data initiate_model_trainer component
+[2025-10-09 18:18:24,903] 38 root - INFO - Splitting training and test input data
+[2025-10-09 18:18:24,903] 46 root - INFO - Models are being defined
+[2025-10-09 18:18:24,906] 82 root - INFO - --------------------------------------------------
+[2025-10-09 18:18:24,906] 83 root - INFO - model_name: Random Forest
+[2025-10-09 18:18:25,161] 92 root - INFO - Random Forest Train score: 0.9762663029745551 Test Score: 0.8532048870923052 .. Before Hyperparameter tuning
+[2025-10-09 18:18:25,161] 94 root - INFO - -------------------------
+[2025-10-09 18:18:25,161] 95 root - INFO - Random Forest hyper param tuning started
+[2025-10-09 18:20:17,780] 109 root - INFO - Random Forest hyper param tuning completed
+[2025-10-09 18:20:17,781] 110 root - INFO - Random Forest Test Score after hyper parm tuning: 0.8524931441445357
+[2025-10-09 18:20:17,781] 112 root - INFO - Random Forest R2 score: 0.8524931441445357
+[2025-10-09 18:20:17,781] 115 root - INFO - --------------------------------------------------
+[2025-10-09 18:20:17,781] 82 root - INFO - --------------------------------------------------
+[2025-10-09 18:20:17,781] 83 root - INFO - model_name: Decision Tree
+[2025-10-09 18:20:17,789] 92 root - INFO - Decision Tree Train score: 0.9996534669718089 Test Score: 0.7322453011937285 .. Before Hyperparameter tuning
+[2025-10-09 18:20:17,789] 94 root - INFO - -------------------------
+[2025-10-09 18:20:17,789] 95 root - INFO - Decision Tree hyper param tuning started
+[2025-10-09 18:20:18,675] 109 root - INFO - Decision Tree hyper param tuning completed
+[2025-10-09 18:20:18,675] 110 root - INFO - Decision Tree Test Score after hyper parm tuning: 0.8242299188020519
+[2025-10-09 18:20:18,676] 112 root - INFO - Decision Tree R2 score: 0.8242299188020519
+[2025-10-09 18:20:18,676] 115 root - INFO - --------------------------------------------------
+[2025-10-09 18:20:18,676] 82 root - INFO - --------------------------------------------------
+[2025-10-09 18:20:18,676] 83 root - INFO - model_name: Gradient Boosting
+[2025-10-09 18:20:18,919] 92 root - INFO - Gradient Boosting Train score: 0.9050396644022572 Test Score: 0.8724475897888391 .. Before Hyperparameter tuning
+[2025-10-09 18:20:18,919] 94 root - INFO - -------------------------
+[2025-10-09 18:20:18,919] 95 root - INFO - Gradient Boosting hyper param tuning started
+[2025-10-09 18:21:27,573] 109 root - INFO - Gradient Boosting hyper param tuning completed
+[2025-10-09 18:21:27,573] 110 root - INFO - Gradient Boosting Test Score after hyper parm tuning: 0.8737308328170816
+[2025-10-09 18:21:27,573] 112 root - INFO - Gradient Boosting R2 score: 0.8737308328170816
+[2025-10-09 18:21:27,573] 115 root - INFO - --------------------------------------------------
+[2025-10-09 18:21:27,574] 82 root - INFO - --------------------------------------------------
+[2025-10-09 18:21:27,574] 83 root - INFO - model_name: Linear Regression
+[2025-10-09 18:21:27,702] 92 root - INFO - Linear Regression Train score: 0.8743172040139593 Test Score: 0.8804332983749564 .. Before Hyperparameter tuning
+[2025-10-09 18:21:27,703] 94 root - INFO - -------------------------
+[2025-10-09 18:21:27,703] 95 root - INFO - Linear Regression hyper param tuning started
+[2025-10-09 18:21:27,965] 109 root - INFO - Linear Regression hyper param tuning completed
+[2025-10-09 18:21:27,965] 110 root - INFO - Linear Regression Test Score after hyper parm tuning: 0.8804332983749564
+[2025-10-09 18:21:27,965] 112 root - INFO - Linear Regression R2 score: 0.8804332983749564
+[2025-10-09 18:21:27,965] 115 root - INFO - --------------------------------------------------
+[2025-10-09 18:21:27,966] 82 root - INFO - --------------------------------------------------
+[2025-10-09 18:21:27,966] 83 root - INFO - model_name: XGBRegressor
+[2025-10-09 18:21:28,148] 92 root - INFO - XGBRegressor Train score: 0.9954995444196413 Test Score: 0.8212204901494256 .. Before Hyperparameter tuning
+[2025-10-09 18:21:28,149] 94 root - INFO - -------------------------
+[2025-10-09 18:21:28,149] 95 root - INFO - XGBRegressor hyper param tuning started
+[2025-10-09 18:22:15,065] 109 root - INFO - XGBRegressor hyper param tuning completed
+[2025-10-09 18:22:15,066] 110 root - INFO - XGBRegressor Test Score after hyper parm tuning: 0.8701508322289314
+[2025-10-09 18:22:15,066] 112 root - INFO - XGBRegressor R2 score: 0.8701508322289314
+[2025-10-09 18:22:15,066] 115 root - INFO - --------------------------------------------------
+[2025-10-09 18:22:15,066] 82 root - INFO - --------------------------------------------------
+[2025-10-09 18:22:15,067] 83 root - INFO - model_name: CatBoosting Regressor
+[2025-10-09 18:22:17,708] 92 root - INFO - CatBoosting Regressor Train score: 0.9589358676277713 Test Score: 0.8518305378322716 .. Before Hyperparameter tuning
+[2025-10-09 18:22:17,708] 94 root - INFO - -------------------------
+[2025-10-09 18:22:17,708] 95 root - INFO - CatBoosting Regressor hyper param tuning started

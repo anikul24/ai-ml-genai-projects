@@ -1,0 +1,8 @@
+[2025-10-08 22:09:48,412] 22 root - INFO - Logger test: This should create a log file.
+[2025-10-08 22:09:48,608] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2025-10-08 22:09:49,307] 20 root - INFO - Entered the data ingestion method or component
+[2025-10-08 22:09:49,311] 23 root - INFO - Read CSV file in datframe
+[2025-10-08 22:09:49,311] 29 root - INFO - Created artifacts folder if not exists
+[2025-10-08 22:09:49,314] 33 root - INFO - Saved Raw data
+[2025-10-08 22:09:49,314] 36 root - INFO - Train test split initiated
+[2025-10-08 22:09:49,318] 42 root - INFO - Ingestion of the data is completed
