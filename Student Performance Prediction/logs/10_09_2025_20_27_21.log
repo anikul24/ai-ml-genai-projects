@@ -1,0 +1,22 @@
+[2025-10-09 20:27:21,483] 22 root - INFO - Logger test: This should create a log file.
+[2025-10-09 20:27:21,720] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2025-10-09 20:27:23,052] 25 root - INFO - Entered the data ingestion method or component
+[2025-10-09 20:27:23,060] 28 root - INFO - Read CSV file in datframe
+[2025-10-09 20:27:23,061] 34 root - INFO - Created artifacts folder if not exists
+[2025-10-09 20:27:23,066] 38 root - INFO - Saved Raw data
+[2025-10-09 20:27:23,066] 41 root - INFO - Train test split initiated
+[2025-10-09 20:27:23,075] 47 root - INFO - Ingestion of the data is completed
+[2025-10-09 20:27:23,079] 66 root - INFO - Read train and test data completed
+[2025-10-09 20:27:23,082] 68 root - INFO - Obtaining preprocessing object
+[2025-10-09 20:27:23,082] 49 root - INFO - Numerical and Categorical pipeline completed
+[2025-10-09 20:27:23,084] 82 root - INFO - Apply preprocessing object on train and test df
+[2025-10-09 20:27:23,116] 90 root - INFO - Saved preprocessing object
+[2025-10-09 20:27:23,116] 91 root - INFO - Saved transformed train and test array
+[2025-10-09 20:27:23,124] 37 root - INFO - Entered the data initiate_model_trainer component
+[2025-10-09 20:27:23,124] 38 root - INFO - Splitting training and test input data
+[2025-10-09 20:27:23,124] 46 root - INFO - Models are being defined
+[2025-10-09 20:27:23,124] 83 root - INFO - ==================================================
+[2025-10-09 20:27:23,124] 84 root - INFO - model_name: Random Forest
+[2025-10-09 20:27:23,404] 93 root - INFO - Random Forest Train score: 0.9769298338476781 Test Score: 0.8496483374592748 .. Before Hyperparameter tuning
+[2025-10-09 20:27:23,404] 95 root - INFO - -------------------------
+[2025-10-09 20:27:23,404] 96 root - INFO - Random Forest hyper param tuning started

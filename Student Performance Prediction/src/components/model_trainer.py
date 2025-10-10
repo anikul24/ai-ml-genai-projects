@@ -45,12 +45,12 @@ class ModelTrainer:
 
             logging.info("Models are being defined")
             models = {
-                "Random Forest": RandomForestRegressor(),
+                # "Random Forest": RandomForestRegressor(),
                 "Decision Tree": DecisionTreeRegressor(),
                 "Gradient Boosting": GradientBoostingRegressor(),
                 "Linear Regression": LinearRegression(),
-                "XGBRegressor": XGBRegressor(),
-                "CatBoosting Regressor": CatBoostRegressor(verbose=False),
+                # "XGBRegressor": XGBRegressor(),
+                # "CatBoosting Regressor": CatBoostRegressor(verbose=False),
                 "AdaBoost Regressor": AdaBoostRegressor(),
                 "Lasso": Lasso(),
                 "Ridge": Ridge(),
