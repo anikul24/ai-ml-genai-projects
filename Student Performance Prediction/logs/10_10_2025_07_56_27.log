@@ -1,0 +1,11 @@
+[2025-10-10 07:56:27,319] 22 root - INFO - Logger test: This should create a log file.
+[2025-10-10 07:56:29,030] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.27:5000
+[2025-10-10 07:56:29,031] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-10-10 07:56:36,346] 97 werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 07:56:36] "GET / HTTP/1.1" 200 -
+[2025-10-10 07:56:51,735] 97 werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 07:56:51] "GET /predictdata HTTP/1.1" 200 -
+[2025-10-10 07:57:31,754] 97 werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 07:57:31] "POST /predictdata HTTP/1.1" 200 -
+[2025-10-10 07:58:59,120] 97 werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 07:58:59] "POST /predictdata HTTP/1.1" 200 -
+[2025-10-10 08:04:31,441] 97 werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 08:04:31] "GET / HTTP/1.1" 200 -

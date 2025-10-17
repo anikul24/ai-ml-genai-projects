@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/d4a136e8bc14462997d8a404b4fae631/artifacts
+end_time: 1760664026400
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: d4a136e8bc14462997d8a404b4fae631
+run_name: peaceful-trout-155
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760664006415
+status: 3
+tags: []
+user_id: prach

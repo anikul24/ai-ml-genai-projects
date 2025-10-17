@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/114fae26894449a78e3446a59db69e9f/artifacts
+end_time: 1760664463706
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: 114fae26894449a78e3446a59db69e9f
+run_name: fun-goat-457
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760664119118
+status: 3
+tags: []
+user_id: prach

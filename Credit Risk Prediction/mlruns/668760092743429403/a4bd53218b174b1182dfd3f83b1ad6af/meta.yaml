@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/668760092743429403/a4bd53218b174b1182dfd3f83b1ad6af/artifacts
+end_time: 1760647503724
+entry_point_name: ''
+experiment_id: '668760092743429403'
+lifecycle_stage: active
+run_id: a4bd53218b174b1182dfd3f83b1ad6af
+run_name: luminous-ox-501
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760647503610
+status: 3
+tags: []
+user_id: prach

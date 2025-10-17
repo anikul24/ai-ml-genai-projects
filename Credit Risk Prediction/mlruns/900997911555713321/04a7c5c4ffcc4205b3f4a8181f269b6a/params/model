@@ -1,0 +1,2 @@
+GradientBoostingClassifier(learning_rate=0.05, min_samples_split=5,
+                           subsample=0.8)

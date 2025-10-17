@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/f7f18ee48fb54ecba6cedeabf2192997/artifacts
+end_time: 1760665418735
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: f7f18ee48fb54ecba6cedeabf2192997
+run_name: salty-stag-209
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760665412434
+status: 3
+tags: []
+user_id: prach

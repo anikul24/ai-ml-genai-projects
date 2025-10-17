@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/6450181287854f4e94693eb738d1c942/artifacts
+end_time: 1760663296816
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: 6450181287854f4e94693eb738d1c942
+run_name: luminous-crab-418
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760663296549
+status: 4
+tags: []
+user_id: prach

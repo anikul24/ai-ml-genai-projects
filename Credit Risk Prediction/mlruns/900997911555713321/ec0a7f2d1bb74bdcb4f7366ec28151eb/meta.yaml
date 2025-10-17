@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/ec0a7f2d1bb74bdcb4f7366ec28151eb/artifacts
+end_time: 1760664118917
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: ec0a7f2d1bb74bdcb4f7366ec28151eb
+run_name: debonair-bird-511
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760664107209
+status: 3
+tags: []
+user_id: prach

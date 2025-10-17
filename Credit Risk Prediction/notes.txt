@@ -1,0 +1,110 @@
+snowflake --
+
+CREATE DATABASE Credit_risk_prediction;
+
+CREATE SCHEMA Credit_risk_prediction.credit_data;
+
+
+use role accountadmin;
+
+create Warehouse if not exists Credit_risk_WH
+with warehouse_size = 'X-Small'
+max_cluster_count = 1
+min_cluster_count = 1
+auto_suspend = 3
+initially_suspended = TRUE
+comment = "WH for credit_data";
+
+create role if not exists Credit_risk_sysadmin;
+
+grant usage on database Credit_risk_prediction to role Credit_risk_sysadmin;
+
+grant usage on schema credit_data to role Credit_risk_sysadmin;
+
+
+grant all privileges on all schemas in database  Credit_risk_prediction to role Credit_risk_sysadmin;
+grant all privileges on future schemas in database  Credit_risk_prediction to role Credit_risk_sysadmin;
+
+grant modify, monitor,usage,operate on warehouse Credit_risk_WH to Credit_risk_sysadmin;
+
+grant ownership on all schemas in database  Credit_risk_prediction to role Credit_risk_sysadmin copy current grants;
+grant ownership on all procedures in database  Credit_risk_prediction to role Credit_risk_sysadmin copy current grants;
+grant ownership on all tables in database  Credit_risk_prediction to role Credit_risk_sysadmin copy current grants;
+grant ownership on future tables in database  Credit_risk_prediction to role Credit_risk_sysadmin copy current grants;
+grant ownership on all tasks in database  Credit_risk_prediction to role Credit_risk_sysadmin copy current grants;
+grant ownership on future tasks  in database  Credit_risk_prediction to  role Credit_risk_sysadmin copy  current grants;
+
+
+
+SeriousDlqin2yrs
+RevolvingUtilizationOfUnsecuredLines
+age
+NumberOfTime30-59DaysPastDueNotWorse
+DebtRatio
+MonthlyIncome
+NumberOfOpenCreditLinesAndLoans
+NumberOfTimes90DaysLate
+NumberRealEstateLoansOrLines
+NumberOfTime60-89DaysPastDueNotWorse
+NumberOfDependents
+
+
+SRC_DLQ_TWO_YRS 
+RVLV_UTLZ_UNSEC_LINES 
+AGE 
+NUM_TIMES_PAST_DUE_IN_30_59_DAYS
+DEBT_RATIO
+MNTHLY_INCOME
+NUM_TIMES_OPEN_CRDT_LINES_LOANS
+NUM_TIMES_90_DAYS_LATE
+NUM_TIMES_REAL_ESTATE_LOAN_LINES
+NUM_TIMES_60_59_DAYS_PAST_DUE
+NUM_DEPEDENTS
+
+
+CREATE TABLE CS_TEST (
+    SRC_DLQ_TWO_YRS INTEGER ,
+    RVLV_UTLZ_UNSEC_LINES FLOAT,
+    AGE INTEGER,
+    NUM_TIMES_PAST_DUE_IN_30_59_DAYS INTEGER,
+    DEBT_RATIO FLOAT,
+	MNTHLY_INCOME INTEGER,
+	NUM_TIMES_OPEN_CRDT_LINES_LOANS INTEGER,
+	NUM_TIMES_90_DAYS_LATE INTEGER,
+	NUM_TIMES_REAL_ESTATE_LOAN_LINES INTEGER,
+	NUM_TIMES_60_59_DAYS_PAST_DUE INTEGER,
+	NUM_DEPEDENTS  INTEGER
+);
+
+
+
+
+ROW_ID, SRC_DLQ_TWO_YRS  ,     RVLV_UTLZ_UNSEC_LINES ,     AGE ,     NUM_TIMES_PAST_DUE_IN_30_59_DAYS ,     DEBT_RATIO , 	MNTHLY_INCOME , 	NUM_TIMES_OPEN_CRDT_LINES_LOANS , 	NUM_TIMES_90_DAYS_LATE , 	NUM_TIMES_REAL_ESTATE_LOAN_LINES , 	NUM_TIMES_60_59_DAYS_PAST_DUE , 	NUM_DEPEDENTS  
+
+
+def corerelation ( dataset, thershold):
+	column_list=set()
+	corr_matrix=dataset.corr()
+	
+	for i in range(len(corr_matrix.columns()))
+		for j in range(i):
+			if abs()
+			
+	
+	
+cred.env is as below 
+
+SNOWFLAKE_USER=<removed>
+SNOWFLAKE_PASSWORD=<removed>
+SNOWFLAKE_ACCOUNT=<removed>
+SNOWFLAKE_WH=Credit_risk_WH
+SNOWFLAKE_DB=CREDIT_RISK_PREDICTION
+SNOWFLAKE_SCHEMA=credit_data
+SNOWFLAKE_ROLE=Credit_risk_sysadmin
+
+also in cell 114 query is as below
+ query = "SELECT CURRENT_ROLE(), CURRENT_WAREHOUSE(), CURRENT_DATABASE(), CURRENT_SCHEMA();"
+ df = pd.read_sql(query, conn)
+df.head()
+
+so there is no issue of uppercase. I checked snowflake query history after write_pands , its not showing anything on snowflake query history , that means something is missing and not reaching even till snowflake	
