@@ -1,0 +1,18 @@
+aliases: []
+creation_timestamp: 1760664687840
+current_stage: None
+deployment_job_state: null
+description: ''
+last_updated_timestamp: 1760664687840
+metrics: null
+model_id: m-62b243328d1447b181fdb7090aa59fa8
+name: Credit Risk Prediction Logistic Regression
+params: null
+run_id: 0f7267dacd5349ad8807df359763b3fb
+run_link: ''
+source: models:/m-62b243328d1447b181fdb7090aa59fa8
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/900997911555713321/models/m-62b243328d1447b181fdb7090aa59fa8/artifacts
+user_id: null
+version: 1

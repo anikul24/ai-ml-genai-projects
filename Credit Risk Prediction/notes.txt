@@ -80,3 +80,31 @@ CREATE TABLE CS_TEST (
 
 
 ROW_ID, SRC_DLQ_TWO_YRS  ,     RVLV_UTLZ_UNSEC_LINES ,     AGE ,     NUM_TIMES_PAST_DUE_IN_30_59_DAYS ,     DEBT_RATIO , 	MNTHLY_INCOME , 	NUM_TIMES_OPEN_CRDT_LINES_LOANS , 	NUM_TIMES_90_DAYS_LATE , 	NUM_TIMES_REAL_ESTATE_LOAN_LINES , 	NUM_TIMES_60_59_DAYS_PAST_DUE , 	NUM_DEPEDENTS  
+
+
+def corerelation ( dataset, thershold):
+	column_list=set()
+	corr_matrix=dataset.corr()
+	
+	for i in range(len(corr_matrix.columns()))
+		for j in range(i):
+			if abs()
+			
+	
+	
+cred.env is as below 
+
+SNOWFLAKE_USER=<removed>
+SNOWFLAKE_PASSWORD=<removed>
+SNOWFLAKE_ACCOUNT=<removed>
+SNOWFLAKE_WH=Credit_risk_WH
+SNOWFLAKE_DB=CREDIT_RISK_PREDICTION
+SNOWFLAKE_SCHEMA=credit_data
+SNOWFLAKE_ROLE=Credit_risk_sysadmin
+
+also in cell 114 query is as below
+ query = "SELECT CURRENT_ROLE(), CURRENT_WAREHOUSE(), CURRENT_DATABASE(), CURRENT_SCHEMA();"
+ df = pd.read_sql(query, conn)
+df.head()
+
+so there is no issue of uppercase. I checked snowflake query history after write_pands , its not showing anything on snowflake query history , that means something is missing and not reaching even till snowflake	

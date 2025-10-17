@@ -1,0 +1,18 @@
+aliases: []
+creation_timestamp: 1760665731065
+current_stage: None
+deployment_job_state: null
+description: ''
+last_updated_timestamp: 1760665731065
+metrics: null
+model_id: m-113ba0bd7a6b4baca27d092811934e51
+name: Credit Risk Prediction GradientBoosting Classifier
+params: null
+run_id: 822dfcb84cbd470882f7c8d8cee3c494
+run_link: ''
+source: mlflow-artifacts:/900997911555713321/models/m-113ba0bd7a6b4baca27d092811934e51/artifacts
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/900997911555713321/models/m-113ba0bd7a6b4baca27d092811934e51/artifacts
+user_id: null
+version: 3

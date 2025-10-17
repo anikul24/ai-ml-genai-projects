@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/822dfcb84cbd470882f7c8d8cee3c494/artifacts
+end_time: 1760665047334
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: 822dfcb84cbd470882f7c8d8cee3c494
+run_name: useful-robin-580
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760665017373
+status: 3
+tags: []
+user_id: prach

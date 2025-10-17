@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/3af8246d04524a94afec1f259bd39af2/artifacts
+end_time: 1760664568589
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: 3af8246d04524a94afec1f259bd39af2
+run_name: whimsical-deer-179
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760664463831
+status: 3
+tags: []
+user_id: prach

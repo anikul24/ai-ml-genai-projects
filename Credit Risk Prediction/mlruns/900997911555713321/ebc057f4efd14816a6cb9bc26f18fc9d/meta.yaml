@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/ebc057f4efd14816a6cb9bc26f18fc9d/artifacts
+end_time: 1760664036001
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: ebc057f4efd14816a6cb9bc26f18fc9d
+run_name: funny-fox-874
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760664026464
+status: 3
+tags: []
+user_id: prach

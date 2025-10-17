@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/677861bc5b16433ebe96ac937126c7e9/artifacts
+end_time: 1760665659975
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: 677861bc5b16433ebe96ac937126c7e9
+run_name: merciful-fawn-558
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760665547645
+status: 3
+tags: []
+user_id: prach

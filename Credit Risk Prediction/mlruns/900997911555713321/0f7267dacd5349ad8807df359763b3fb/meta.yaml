@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/0f7267dacd5349ad8807df359763b3fb/artifacts
+end_time: 1760664688183
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: 0f7267dacd5349ad8807df359763b3fb
+run_name: valuable-gull-806
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760664657449
+status: 3
+tags: []
+user_id: prach

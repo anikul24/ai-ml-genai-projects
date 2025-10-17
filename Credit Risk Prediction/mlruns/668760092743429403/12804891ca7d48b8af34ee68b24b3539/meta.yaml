@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/668760092743429403/12804891ca7d48b8af34ee68b24b3539/artifacts
+end_time: 1760647082561
+entry_point_name: ''
+experiment_id: '668760092743429403'
+lifecycle_stage: active
+run_id: 12804891ca7d48b8af34ee68b24b3539
+run_name: judicious-steed-610
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760647082520
+status: 3
+tags: []
+user_id: prach

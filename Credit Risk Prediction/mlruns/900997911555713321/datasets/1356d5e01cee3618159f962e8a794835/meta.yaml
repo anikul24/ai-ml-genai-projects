@@ -1,0 +1,15 @@
+digest: f5d4d136
+name: dataset
+profile: '{"num_rows": 101066, "num_elements": 1010660}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "RVLV_UTLZ_UNSEC_LINES", "required":
+  true}, {"type": "long", "name": "AGE", "required": true}, {"type": "long", "name":
+  "NUM_TIMES_PAST_DUE_IN_30_59_DAYS", "required": true}, {"type": "double", "name":
+  "DEBT_RATIO", "required": true}, {"type": "double", "name": "MNTHLY_INCOME", "required":
+  true}, {"type": "long", "name": "NUM_TIMES_OPEN_CRDT_LINES_LOANS", "required": true},
+  {"type": "long", "name": "NUM_TIMES_90_DAYS_LATE", "required": true}, {"type": "long",
+  "name": "NUM_TIMES_REAL_ESTATE_LOAN_LINES", "required": true}, {"type": "long",
+  "name": "NUM_TIMES_60_59_DAYS_PAST_DUE", "required": true}, {"type": "double", "name":
+  "NUM_DEPEDENTS", "required": true}]}'
+source: '{"tags": {"mlflow.user": "prach", "mlflow.source.name": "c:\\Users\\prach\\anaconda3\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

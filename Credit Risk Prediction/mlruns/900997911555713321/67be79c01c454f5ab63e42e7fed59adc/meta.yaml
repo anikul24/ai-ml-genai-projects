@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/67be79c01c454f5ab63e42e7fed59adc/artifacts
+end_time: 1760663848970
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: 67be79c01c454f5ab63e42e7fed59adc
+run_name: colorful-bug-670
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760663834238
+status: 3
+tags: []
+user_id: prach

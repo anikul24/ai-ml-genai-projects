@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/900997911555713321/ee31e2d8d2f34f5aa923438857501595/artifacts
+end_time: 1760665544922
+entry_point_name: ''
+experiment_id: '900997911555713321'
+lifecycle_stage: active
+run_id: ee31e2d8d2f34f5aa923438857501595
+run_name: fearless-shad-270
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760665418901
+status: 3
+tags: []
+user_id: prach
