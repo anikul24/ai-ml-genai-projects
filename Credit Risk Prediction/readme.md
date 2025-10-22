@@ -1,12 +1,16 @@
-# Credit Risk Scoring
+# 💳 Credit Risk Prediction — End-to-End MLOps Project
 
-## Description
+This project predicts **credit default risk** using customer financial data.  
+It demonstrates a **complete Machine Learning lifecycle**, including data ingestion from **Snowflake**, model training and hyperparameter tuning, and experiment tracking using **MLflow**.  
+
+The goal is to build a production-ready, explainable, and reproducible credit scoring pipeline.
 
 Banks play a crucial role in market economies. They decide who can get finance and on what terms and can make or break investment decisions. For markets and society to function, individuals and companies need access to credit. 
 
 Credit scoring algorithms, which make a guess at the probability of default, are the method banks use to determine whether or not a loan should be granted. This competition requires participants to improve on the state of the art in credit scoring, by predicting the probability that somebody will experience financial distress in the next two years.
 
-The goal of this competition is to build a model that borrowers can use to help make the best financial decisions.
+The goal of this competition is to build a model that borrowers can use to help make the best financial decisions and this project uses historical credit data to train machine learning models capable of classifying high-risk customers.
+
 
 ## Context
 Improve on the state of the art in credit scoring by predicting the probability that somebody will experience financial distress in the next two years.
@@ -38,3 +42,23 @@ https://www.kaggle.com/competitions/GiveMeSomeCredit/overview
 - Dataset Source - https://www.kaggle.com/competitions/GiveMeSomeCredit/data
 - The data consists of separe training and test datasets.
 
+
+
+## 🧠 Project Overview
+
+Credit risk prediction is crucial for financial institutions to assess the likelihood of a borrower defaulting on a loan.  
+
+---
+
+## 🏗️ Architecture & Design
+
+```mermaid
+flowchart TD
+    A[Snowflake Database] -->|Data Ingestion| B[Jupyter/VS Code (Python)]
+    B -->|EDA & Feature Engineering| C[ML Models (gradient boosting, Logistic regression)]
+    C -->|Hyperparameter Tuning| D[Optimized Model]
+    D -->|Write Predictions Back| A
+    E -->|Tracking| E[MLflow Tracking Server]
+    F -->|Register Best Model| F[MLflow Model Registry]
+    G -->|Deployment/Inference| G[Prediction API / Notebook]
+    
