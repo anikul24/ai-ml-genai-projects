@@ -54,11 +54,11 @@ Credit risk prediction is crucial for financial institutions to assess the likel
 
 ```mermaid
 flowchart TD
-    A[Snowflake Database] -->|Data Ingestion| B[Jupyter/VS Code (Python)]
-    B -->|EDA & Feature Engineering| C[ML Models (gradient boosting, Logistic regression)]
-    C -->|Hyperparameter Tuning| D[Optimized Model]
-    D -->|Write Predictions Back| A
-    E -->|Tracking| E[MLflow Tracking Server]
-    F -->|Register Best Model| F[MLflow Model Registry]
-    G -->|Deployment/Inference| G[Prediction API / Notebook]
+    A[Data Source: csv -> Snowflake ] --> B[Data Ingestion from Snowflake & EDA]
+    B --> C[Feature Engineering & Preprocessing]
+    C --> D[Model Training: Logistic, GradientBoost]
+    D --> E[Hyperparameter Tuning & Evaluation]
+    E --> F[Model Tracking: MLflow]
+    F --> G[Model Deployment: MLflow UI / API]
+    G --> H[Result Storage: Snowflake / Local CSV]
     
