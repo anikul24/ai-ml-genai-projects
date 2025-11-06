@@ -14,3 +14,4 @@ numpy
 tiktoken
 docx2txt
 pypdf
+ddg
