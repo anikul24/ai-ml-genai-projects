@@ -1,0 +1,6 @@
+# requests
+# pandas
+semantic_router
+pinecone
+serpapi
+google-search-results
