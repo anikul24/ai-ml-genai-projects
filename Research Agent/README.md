@@ -94,7 +94,7 @@ State Machine	StateGraph
     ├── readme.md
 
 
-▶️ How It Works
+##  ▶️ How It Works
 
 User sends query
 
@@ -114,7 +114,7 @@ Final answer synthesized from tool outputs
 
 
 
-🧪 Example Query
+##  🧪 Example Query
 
 "Tell me something interesting about Dynamic Backtracking AI and LLMs"
 
@@ -128,7 +128,7 @@ then final_answer
 
 
 
-🏁 Expected Output
+## 🏁 Expected Output
 
 A deeply synthesized LLM-generated answer, grounded with fetched evidence from multiple sources.
 
