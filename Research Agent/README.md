@@ -81,6 +81,8 @@ State Machine	StateGraph
 
 
 ##  📦 Project Structure
+
+```
 /agent/
     ├── orchestrator.py
     ├── router.py
@@ -92,7 +94,7 @@ State Machine	StateGraph
     ├── graph.py
     ├── state.py
     ├── readme.md
-
+```
 
 ##  ▶️ How It Works
 
