@@ -47,6 +47,7 @@ AgentState = {
 
 ## ✔  Architecture High-Level Agent Flow
 ```mermaid
+
 flowchart TD
 
     A[User Query] --> B[Orchestrator LLM]
@@ -67,7 +68,8 @@ flowchart TD
     I --> J((End))
 
 
-##  🧩 Tech Stack
+
+## 🧩 Tech Stack
 
 Component	Technology
 Agent Framework	LangGraph (LangChain core)
