@@ -5,7 +5,7 @@ It uses LangGraph to build a state-driven agent that plans → chooses tools →
 
 
 🧠 Core Capabilities
-✔ Agentic Reasoning
+## ✔ Agentic Reasoning
 
 Orchestrator LLM decides the next action.
 
@@ -13,7 +13,7 @@ Router directs the workflow based on the agent state.
 
 Loop continues until final_answer is reached.
 
-✔ Multi-Tool Integration
+## ✔ Multi-Tool Integration
 
 rag_search_filter
 
@@ -27,7 +27,7 @@ final_answer
 
 Each tool is a callable node in the LangGraph state machine.
 
-✔ ## Retrieval-Augmented Generation (RAG)
+## ✔  Retrieval-Augmented Generation (RAG)
 
 Embeddings & vector search pipeline.
 
@@ -35,7 +35,7 @@ Dynamic chunking + metadata.
 
 Sources: Arxiv papers, Web search results, internal documents.
 
-✔ ## Self-Monitoring State
+## ✔  Self-Monitoring State
 
 Stores tool results, actions, and history in:
 
@@ -45,14 +45,16 @@ AgentState = {
     intermediate_steps: List[(AgentAction, str)]
 }
 
-✔ ## Architecture High-Level Agent Flow
+## ✔  Architecture High-Level Agent Flow
 
-flowchart TD
+
 
 ```mermaid
 
+flowchart TD
+
     A[User Query] --> B[Orchestrator LLM]
-    B --> C{Router}
+    B --> C[Router]
 
     C -->|rag_search| D[RAG Search Tool]
     C -->|rag_search_filter| E[RAG Filter Tool]
