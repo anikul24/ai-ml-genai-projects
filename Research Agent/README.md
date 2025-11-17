@@ -127,8 +127,7 @@ then rag_search
 then final_answer
 
 
-
-## 🏁 Expected Output
+🏁 Expected Output
 
 
 A deeply synthesized LLM-generated answer, grounded with fetched evidence from multiple sources.
@@ -166,3 +165,5 @@ Tool    Tool             Tool               Tool
             └───────┬──────┘
                     ▼
               Output to User
+
+
