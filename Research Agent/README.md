@@ -127,43 +127,35 @@ then rag_search
 then final_answer
 
 
-🏁 Expected Output
-
+## 🏁 Expected Output
 
 A deeply synthesized LLM-generated answer, grounded with fetched evidence from multiple sources.
 
 Agent Data Flow Diagram
 
- ┌───────────────────────────┐
- │        User Input         │
- └─────────────┬─────────────┘
-               │
-               ▼
-     ┌──────────────────┐
-     │   Orchestrator   │  ← LLM decides the next tool
-     └───────┬──────────┘
-             │
-             ▼
-   ┌──────────────────────┐
-   │        Router        │  ← Reads last tool in state
-   └───────┬──────────────┘
-           │
- ┌─────────┼───────────────────────────────┐
- │         │               │               │
- ▼         ▼               ▼               ▼
-RAG    RAG Filter     Fetch Arxiv       Web Search
-Tool    Tool             Tool               Tool
- │         │               │                 │
- └─────────┴───────┬──────┴───────────────┘
-                   ▼
-          ┌──────────────────┐
-          │   Orchestrator   │  ← Loop continues
-          └─────────┬────────┘
-                    ▼
-            ┌──────────────┐
-            │ Final Answer │
-            └───────┬──────┘
-                    ▼
-              Output to User
+```mermaid
+flowchart TD
 
+    %% Main Flow Nodes
+    A[User Input] --> B(Orchestrator LLM<br>LLM decides the next tool)
+    B --> C(Router<br>Reads last tool in state)
+
+    %% Tool Routing
+    C -->|rag_search| D[RAG Search Tool]
+    C -->|rag_search_filter| E[RAG Filter Tool]
+    C -->|fetch_arxiv| F[Fetch Arxiv Tool]
+    C -->|web_search| G[Web Search Tool]
+
+    %% Tool Results Loop Back
+    D --> B
+    E --> B
+    F --> B
+    G --> B
+    
+    %% Final Output
+    B --> H[Final Answer]
+    H --> I((Output to User))
+
+
+```
 
