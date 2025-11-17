@@ -68,6 +68,7 @@ flowchart TD
     I --> J((End))
 ```
 
+![Agent Flow Diagram](./files/output.png)
 
 ## 🧩 Tech Stack
 
