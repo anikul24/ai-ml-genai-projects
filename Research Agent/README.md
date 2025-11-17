@@ -3,6 +3,7 @@
 This project implements an Agentic AI system capable of autonomous reasoning, multi-step decision-making, and retrieving information from multiple sources (RAG, Arxiv API, Web Search).
 It uses LangGraph to build a state-driven agent that plans → chooses tools → observes → continues → produces a final answer.
 
+
 🧠 Core Capabilities
 ✔ Agentic Reasoning
 
@@ -26,7 +27,7 @@ final_answer
 
 Each tool is a callable node in the LangGraph state machine.
 
-✔ Retrieval-Augmented Generation (RAG)
+✔ ## Retrieval-Augmented Generation (RAG)
 
 Embeddings & vector search pipeline.
 
@@ -34,7 +35,7 @@ Dynamic chunking + metadata.
 
 Sources: Arxiv papers, Web search results, internal documents.
 
-✔ Self-Monitoring State
+✔ ## Self-Monitoring State
 
 Stores tool results, actions, and history in:
 
@@ -44,9 +45,11 @@ AgentState = {
     intermediate_steps: List[(AgentAction, str)]
 }
 
-Architecture
-High-Level Agent Flow
+✔ ## Architecture High-Level Agent Flow
+
 flowchart TD
+
+```mermaid
 
     A[User Query] --> B[Orchestrator LLM]
     B --> C{Router}
@@ -64,7 +67,10 @@ flowchart TD
     B -->|return final| H[Final Answer Tool]
     H --> I[Output to User]
 
+
+
 🧩 Tech Stack
+
 Component	Technology
 Agent Framework	LangGraph (LangChain core)
 LLM	OpenAI GPT models
@@ -107,6 +113,7 @@ Loop continues until final_answer
 Final answer synthesized from tool outputs
 
 
+
 🧪 Example Query
 
 "Tell me something interesting about Dynamic Backtracking AI and LLMs"
@@ -118,6 +125,8 @@ fetch_arxiv
 then rag_search
 
 then final_answer
+
+
 
 🏁 Expected Output
 
