@@ -1,4 +1,4 @@
-🚀 Agentic Research Assistant — Multi-Tool GenAI System Using LangGraph
+## 🚀 Agentic Research Assistant — Multi-Tool GenAI System Using LangGraph
 
 This project implements an Agentic AI system capable of autonomous reasoning, multi-step decision-making, and retrieving information from multiple sources (RAG, Arxiv API, Web Search).
 It uses LangGraph to build a state-driven agent that plans → chooses tools → observes → continues → produces a final answer.
@@ -46,11 +46,7 @@ AgentState = {
 }
 
 ## ✔  Architecture High-Level Agent Flow
-
-
-
 ```mermaid
-
 flowchart TD
 
     A[User Query] --> B[Orchestrator LLM]
@@ -68,10 +64,10 @@ flowchart TD
 
     B -->|return final| H[Final Answer Tool]
     H --> I[Output to User]
+    I --> J((End))
 
 
-
-🧩 Tech Stack
+##  🧩 Tech Stack
 
 Component	Technology
 Agent Framework	LangGraph (LangChain core)
@@ -82,7 +78,7 @@ Tools	Python functions wrapped with LangChain Tool
 State Machine	StateGraph
 
 
-📦 Project Structure
+##  📦 Project Structure
 /agent/
     ├── orchestrator.py
     ├── router.py
