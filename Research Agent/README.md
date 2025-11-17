@@ -80,8 +80,9 @@ Tools	Python functions wrapped with LangChain Tool
 State Machine	StateGraph
 
 
-##  📦 Project Structure
+##  📦 Proposed Project Structure 
 
+(Curretly code is in one ipynb file)
 ```
 /agent/
     ├── orchestrator.py
