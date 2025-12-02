@@ -1,0 +1,548 @@
+[
+    {
+        "title": "Dynamic Backtracking",
+        "summary": "Because of their occasional need to return to shallow points in a search\ntree, existing backtracking methods can sometimes erase meaningful progress\ntoward solving a search problem. In this paper, we present a method by which\nbacktrack points can be moved deeper in the search space, thereby avoiding this\ndifficulty. The technique developed is a variant of dependency-directed\nbacktracking that uses only polynomial space while still providing useful\ncontrol information and retaining the completeness guarantees provided by\nearlier approaches.",
+        "authors": [
+            "M. L. Ginsberg"
+        ],
+        "arxiv_id": "9308101v1",
+        "url": "http://arxiv.org/abs/cs/9308101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9308101v1"
+    },
+    {
+        "title": "A Market-Oriented Programming Environment and its Application to\n  Distributed Multicommodity Flow Problems",
+        "summary": "Market price systems constitute a well-understood class of mechanisms that\nunder certain conditions provide effective decentralization of decision making\nwith minimal communication overhead. In a market-oriented programming approach\nto distributed problem solving, we derive the activities and resource\nallocations for a set of computational agents by computing the competitive\nequilibrium of an artificial economy. WALRAS provides basic constructs for\ndefining computational market structures, and protocols for deriving their\ncorresponding price equilibria. In a particular realization of this approach\nfor a form of multicommodity flow problem, we see that careful construction of\nthe decision process according to economic principles can lead to efficient\ndistributed resource allocation, and that the behavior of the system can be\nmeaningfully analyzed in economic terms.",
+        "authors": [
+            "M. P. Wellman"
+        ],
+        "arxiv_id": "9308102v1",
+        "url": "http://arxiv.org/abs/cs/9308102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9308102v1"
+    },
+    {
+        "title": "An Empirical Analysis of Search in GSAT",
+        "summary": "We describe an extensive study of search in GSAT, an approximation procedure\nfor propositional satisfiability. GSAT performs greedy hill-climbing on the\nnumber of satisfied clauses in a truth assignment. Our experiments provide a\nmore complete picture of GSAT's search than previous accounts. We describe in\ndetail the two phases of search: rapid hill-climbing followed by a long plateau\nsearch. We demonstrate that when applied to randomly generated 3SAT problems,\nthere is a very simple scaling with problem size for both the mean number of\nsatisfied clauses and the mean branching rate. Our results allow us to make\ndetailed numerical conjectures about the length of the hill-climbing phase, the\naverage gradient of this phase, and to conjecture that both the average score\nand average branching rate decay exponentially during plateau search. We end by\nshowing how these results can be used to direct future theoretical analysis.\nThis work provides a case study of how computer experiments can be used to\nimprove understanding of the theoretical properties of algorithms.",
+        "authors": [
+            "I. P. Gent",
+            "T. Walsh"
+        ],
+        "arxiv_id": "9309101v1",
+        "url": "http://arxiv.org/abs/cs/9309101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9309101v1"
+    },
+    {
+        "title": "The Difficulties of Learning Logic Programs with Cut",
+        "summary": "As real logic programmers normally use cut (!), an effective learning\nprocedure for logic programs should be able to deal with it. Because the cut\npredicate has only a procedural meaning, clauses containing cut cannot be\nlearned using an extensional evaluation method, as is done in most learning\nsystems. On the other hand, searching a space of possible programs (instead of\na space of independent clauses) is unfeasible. An alternative solution is to\ngenerate first a candidate base program which covers the positive examples, and\nthen make it consistent by inserting cut where appropriate. The problem of\nlearning programs with cut has not been investigated before and this seems to\nbe a natural and reasonable approach. We generalize this scheme and investigate\nthe difficulties that arise. Some of the major shortcomings are actually\ncaused, in general, by the need for intensional evaluation. As a conclusion,\nthe analysis of this paper suggests, on precise and technical grounds, that\nlearning cut is difficult, and current induction techniques should probably be\nrestricted to purely declarative logic languages.",
+        "authors": [
+            "F. Bergadano",
+            "D. Gunetti",
+            "U. Trinchero"
+        ],
+        "arxiv_id": "9311101v1",
+        "url": "http://arxiv.org/abs/cs/9311101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9311101v1"
+    },
+    {
+        "title": "Software Agents: Completing Patterns and Constructing User Interfaces",
+        "summary": "To support the goal of allowing users to record and retrieve information,\nthis paper describes an interactive note-taking system for pen-based computers\nwith two distinctive features. First, it actively predicts what the user is\ngoing to write. Second, it automatically constructs a custom, button-box user\ninterface on request. The system is an example of a learning-apprentice\nsoftware- agent. A machine learning component characterizes the syntax and\nsemantics of the user's information. A performance system uses this learned\ninformation to generate completion strings and construct a user interface.\nDescription of Online Appendix: People like to record information. Doing this\non paper is initially efficient, but lacks flexibility. Recording information\non a computer is less efficient but more powerful. In our new note taking\nsoftwre, the user records information directly on a computer. Behind the\ninterface, an agent acts for the user. To help, it provides defaults and\nconstructs a custom user interface. The demonstration is a QuickTime movie of\nthe note taking agent in action. The file is a binhexed self-extracting\narchive. Macintosh utilities for binhex are available from\nmac.archive.umich.edu. QuickTime is available from ftp.apple.com in the\ndts/mac/sys.soft/quicktime.",
+        "authors": [
+            "J. C. Schlimmer",
+            "L. A. Hermens"
+        ],
+        "arxiv_id": "9311102v1",
+        "url": "http://arxiv.org/abs/cs/9311102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9311102v1"
+    },
+    {
+        "title": "Decidable Reasoning in Terminological Knowledge Representation Systems",
+        "summary": "Terminological knowledge representation systems (TKRSs) are tools for\ndesigning and using knowledge bases that make use of terminological languages\n(or concept languages). We analyze from a theoretical point of view a TKRS\nwhose capabilities go beyond the ones of presently available TKRSs. The new\nfeatures studied, often required in practical applications, can be summarized\nin three main points. First, we consider a highly expressive terminological\nlanguage, called ALCNR, including general complements of concepts, number\nrestrictions and role conjunction. Second, we allow to express inclusion\nstatements between general concepts, and terminological cycles as a particular\ncase. Third, we prove the decidability of a number of desirable TKRS-deduction\nservices (like satisfiability, subsumption and instance checking) through a\nsound, complete and terminating calculus for reasoning in ALCNR-knowledge\nbases. Our calculus extends the general technique of constraint systems. As a\nbyproduct of the proof, we get also the result that inclusion statements in\nALCNR can be simulated by terminological cycles, if descriptive semantics is\nadopted.",
+        "authors": [
+            "M. Buchheit",
+            "F. M. Donini",
+            "A. Schaerf"
+        ],
+        "arxiv_id": "9312101v1",
+        "url": "http://arxiv.org/abs/cs/9312101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9312101v1"
+    },
+    {
+        "title": "Teleo-Reactive Programs for Agent Control",
+        "summary": "A formalism is presented for computing and organizing actions for autonomous\nagents in dynamic environments. We introduce the notion of teleo-reactive (T-R)\nprograms whose execution entails the construction of circuitry for the\ncontinuous computation of the parameters and conditions on which agent action\nis based. In addition to continuous feedback, T-R programs support parameter\nbinding and recursion. A primary difference between T-R programs and many other\ncircuit-based systems is that the circuitry of T-R programs is more compact; it\nis constructed at run time and thus does not have to anticipate all the\ncontingencies that might arise over all possible runs. In addition, T-R\nprograms are intuitive and easy to write and are written in a form that is\ncompatible with automatic planning and learning methods. We briefly describe\nsome experimental applications of T-R programs in the control of simulated and\nactual mobile robots.",
+        "authors": [
+            "N. Nilsson"
+        ],
+        "arxiv_id": "9401101v1",
+        "url": "http://arxiv.org/abs/cs/9401101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9401101v1"
+    },
+    {
+        "title": "Learning the Past Tense of English Verbs: The Symbolic Pattern\n  Associator vs. Connectionist Models",
+        "summary": "Learning the past tense of English verbs - a seemingly minor aspect of\nlanguage acquisition - has generated heated debates since 1986, and has become\na landmark task for testing the adequacy of cognitive modeling. Several\nartificial neural networks (ANNs) have been implemented, and a challenge for\nbetter symbolic models has been posed. In this paper, we present a\ngeneral-purpose Symbolic Pattern Associator (SPA) based upon the decision-tree\nlearning algorithm ID3. We conduct extensive head-to-head comparisons on the\ngeneralization ability between ANN models and the SPA under different\nrepresentations. We conclude that the SPA generalizes the past tense of unseen\nverbs better than ANN models by a wide margin, and we offer insights as to why\nthis should be the case. We also discuss a new default strategy for\ndecision-tree learning algorithms.",
+        "authors": [
+            "C. X. Ling"
+        ],
+        "arxiv_id": "9402101v1",
+        "url": "http://arxiv.org/abs/cs/9402101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9402101v1"
+    },
+    {
+        "title": "Substructure Discovery Using Minimum Description Length and Background\n  Knowledge",
+        "summary": "The ability to identify interesting and repetitive substructures is an\nessential component to discovering knowledge in structural data. We describe a\nnew version of our SUBDUE substructure discovery system based on the minimum\ndescription length principle. The SUBDUE system discovers substructures that\ncompress the original data and represent structural concepts in the data. By\nreplacing previously-discovered substructures in the data, multiple passes of\nSUBDUE produce a hierarchical description of the structural regularities in the\ndata. SUBDUE uses a computationally-bounded inexact graph match that identifies\nsimilar, but not identical, instances of a substructure and finds an\napproximate measure of closeness of two substructures when under computational\nconstraints. In addition to the minimum description length principle, other\nbackground knowledge can be used by SUBDUE to guide the search towards more\nappropriate substructures. Experiments in a variety of domains demonstrate\nSUBDUE's ability to find substructures capable of compressing the original data\nand to discover structural concepts important to the domain. Description of\nOnline Appendix: This is a compressed tar file containing the SUBDUE discovery\nsystem, written in C. The program accepts as input databases represented in\ngraph form, and will output discovered substructures with their corresponding\nvalue.",
+        "authors": [
+            "D. J. Cook",
+            "L. B. Holder"
+        ],
+        "arxiv_id": "9402102v1",
+        "url": "http://arxiv.org/abs/cs/9402102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9402102v1"
+    },
+    {
+        "title": "Bias-Driven Revision of Logical Domain Theories",
+        "summary": "The theory revision problem is the problem of how best to go about revising a\ndeficient domain theory using information contained in examples that expose\ninaccuracies. In this paper we present our approach to the theory revision\nproblem for propositional domain theories. The approach described here, called\nPTR, uses probabilities associated with domain theory elements to numerically\ntrack the ``flow'' of proof through the theory. This allows us to measure the\nprecise role of a clause or literal in allowing or preventing a (desired or\nundesired) derivation for a given example. This information is used to\nefficiently locate and repair flawed elements of the theory. PTR is proved to\nconverge to a theory which correctly classifies all examples, and shown\nexperimentally to be fast and accurate even for deep theories.",
+        "authors": [
+            "M. Koppel",
+            "R. Feldman",
+            "A. M. Segre"
+        ],
+        "arxiv_id": "9402103v1",
+        "url": "http://arxiv.org/abs/cs/9402103v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9402103v1"
+    },
+    {
+        "title": "Exploring the Decision Forest: An Empirical Investigation of Occam's\n  Razor in Decision Tree Induction",
+        "summary": "We report on a series of experiments in which all decision trees consistent\nwith the training data are constructed. These experiments were run to gain an\nunderstanding of the properties of the set of consistent decision trees and the\nfactors that affect the accuracy of individual trees. In particular, we\ninvestigated the relationship between the size of a decision tree consistent\nwith some training data and the accuracy of the tree on test data. The\nexperiments were performed on a massively parallel Maspar computer. The results\nof the experiments on several artificial and two real world problems indicate\nthat, for many of the problems investigated, smaller consistent decision trees\nare on average less accurate than the average accuracy of slightly larger\ntrees.",
+        "authors": [
+            "P. M. Murphy",
+            "M. J. Pazzani"
+        ],
+        "arxiv_id": "9403101v1",
+        "url": "http://arxiv.org/abs/cs/9403101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9403101v1"
+    },
+    {
+        "title": "A Semantics and Complete Algorithm for Subsumption in the CLASSIC\n  Description Logic",
+        "summary": "This paper analyzes the correctness of the subsumption algorithm used in\nCLASSIC, a description logic-based knowledge representation system that is\nbeing used in practical applications. In order to deal efficiently with\nindividuals in CLASSIC descriptions, the developers have had to use an\nalgorithm that is incomplete with respect to the standard, model-theoretic\nsemantics for description logics. We provide a variant semantics for\ndescriptions with respect to which the current implementation is complete, and\nwhich can be independently motivated. The soundness and completeness of the\npolynomial-time subsumption algorithm is established using description graphs,\nwhich are an abstracted version of the implementation structures used in\nCLASSIC, and are of independent interest.",
+        "authors": [
+            "A. Borgida",
+            "P. F. Patel-Schneider"
+        ],
+        "arxiv_id": "9406101v1",
+        "url": "http://arxiv.org/abs/cs/9406101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9406101v1"
+    },
+    {
+        "title": "Applying GSAT to Non-Clausal Formulas",
+        "summary": "In this paper we describe how to modify GSAT so that it can be applied to\nnon-clausal formulas. The idea is to use a particular ``score'' function which\ngives the number of clauses of the CNF conversion of a formula which are false\nunder a given truth assignment. Its value is computed in linear time, without\nconstructing the CNF conversion itself. The proposed methodology applies to\nmost of the variants of GSAT proposed so far.",
+        "authors": [
+            "R. Sebastiani"
+        ],
+        "arxiv_id": "9406102v1",
+        "url": "http://arxiv.org/abs/cs/9406102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9406102v1"
+    },
+    {
+        "title": "Random Worlds and Maximum Entropy",
+        "summary": "Given a knowledge base KB containing first-order and statistical facts, we\nconsider a principled method, called the random-worlds method, for computing a\ndegree of belief that some formula Phi holds given KB. If we are reasoning\nabout a world or system consisting of N individuals, then we can consider all\npossible worlds, or first-order models, with domain {1,...,N} that satisfy KB,\nand compute the fraction of them in which Phi is true. We define the degree of\nbelief to be the asymptotic value of this fraction as N grows large. We show\nthat when the vocabulary underlying Phi and KB uses constants and unary\npredicates only, we can naturally associate an entropy with each world. As N\ngrows larger, there are many more worlds with higher entropy. Therefore, we can\nuse a maximum-entropy computation to compute the degree of belief. This result\nis in a similar spirit to previous work in physics and artificial intelligence,\nbut is far more general. Of equal interest to the result itself are the\nlimitations on its scope. Most importantly, the restriction to unary predicates\nseems necessary. Although the random-worlds method makes sense in general, the\nconnection to maximum entropy seems to disappear in the non-unary case. These\nobservations suggest unexpected limitations to the applicability of\nmaximum-entropy methods.",
+        "authors": [
+            "A. J. Grove",
+            "J. Y. Halpern",
+            "D. Koller"
+        ],
+        "arxiv_id": "9408101v1",
+        "url": "http://arxiv.org/abs/cs/9408101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9408101v1"
+    },
+    {
+        "title": "Pattern Matching and Discourse Processing in Information Extraction from\n  Japanese Text",
+        "summary": "Information extraction is the task of automatically picking up information of\ninterest from an unconstrained text. Information of interest is usually\nextracted in two steps. First, sentence level processing locates relevant\npieces of information scattered throughout the text; second, discourse\nprocessing merges coreferential information to generate the output. In the\nfirst step, pieces of information are locally identified without recognizing\nany relationships among them. A key word search or simple pattern search can\nachieve this purpose. The second step requires deeper knowledge in order to\nunderstand relationships among separately identified pieces of information.\nPrevious information extraction systems focused on the first step, partly\nbecause they were not required to link up each piece of information with other\npieces. To link the extracted pieces of information and map them onto a\nstructured output format, complex discourse processing is essential. This paper\nreports on a Japanese information extraction system that merges information\nusing a pattern matcher and discourse processor. Evaluation results show a high\nlevel of system performance which approaches human performance.",
+        "authors": [
+            "T. Kitani",
+            "Y. Eriguchi",
+            "M. Hara"
+        ],
+        "arxiv_id": "9408102v1",
+        "url": "http://arxiv.org/abs/cs/9408102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9408102v1"
+    },
+    {
+        "title": "A System for Induction of Oblique Decision Trees",
+        "summary": "This article describes a new system for induction of oblique decision trees.\nThis system, OC1, combines deterministic hill-climbing with two forms of\nrandomization to find a good oblique split (in the form of a hyperplane) at\neach node of a decision tree. Oblique decision tree methods are tuned\nespecially for domains in which the attributes are numeric, although they can\nbe adapted to symbolic or mixed symbolic/numeric attributes. We present\nextensive empirical studies, using both real and artificial data, that analyze\nOC1's ability to construct oblique trees that are smaller and more accurate\nthan their axis-parallel counterparts. We also examine the benefits of\nrandomization for the construction of oblique decision trees.",
+        "authors": [
+            "S. K. Murthy",
+            "S. Kasif",
+            "S. Salzberg"
+        ],
+        "arxiv_id": "9408103v1",
+        "url": "http://arxiv.org/abs/cs/9408103v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9408103v1"
+    },
+    {
+        "title": "On Planning while Learning",
+        "summary": "This paper introduces a framework for Planning while Learning where an agent\nis given a goal to achieve in an environment whose behavior is only partially\nknown to the agent. We discuss the tractability of various plan-design\nprocesses. We show that for a large natural class of Planning while Learning\nsystems, a plan can be presented and verified in a reasonable time. However,\ncoming up algorithmically with a plan, even for simple classes of systems is\napparently intractable. We emphasize the role of off-line plan-design\nprocesses, and show that, in most natural cases, the verification (projection)\npart can be carried out in an efficient algorithmic manner.",
+        "authors": [
+            "S. Safra",
+            "M. Tennenholtz"
+        ],
+        "arxiv_id": "9409101v1",
+        "url": "http://arxiv.org/abs/cs/9409101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9409101v1"
+    },
+    {
+        "title": "Wrap-Up: a Trainable Discourse Module for Information Extraction",
+        "summary": "The vast amounts of on-line text now available have led to renewed interest\nin information extraction (IE) systems that analyze unrestricted text,\nproducing a structured representation of selected information from the text.\nThis paper presents a novel approach that uses machine learning to acquire\nknowledge for some of the higher level IE processing. Wrap-Up is a trainable IE\ndiscourse component that makes intersentential inferences and identifies\nlogical relations among information extracted from the text. Previous\ncorpus-based approaches were limited to lower level processing such as\npart-of-speech tagging, lexical disambiguation, and dictionary construction.\nWrap-Up is fully trainable, and not only automatically decides what classifiers\nare needed, but even derives the feature set for each classifier automatically.\nPerformance equals that of a partially trainable discourse module requiring\nmanual customization for each domain.",
+        "authors": [
+            "S. Soderland",
+            "Lehnert. W"
+        ],
+        "arxiv_id": "9412101v1",
+        "url": "http://arxiv.org/abs/cs/9412101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9412101v1"
+    },
+    {
+        "title": "Operations for Learning with Graphical Models",
+        "summary": "This paper is a multidisciplinary review of empirical, statistical learning\nfrom a graphical model perspective. Well-known examples of graphical models\ninclude Bayesian networks, directed graphs representing a Markov chain, and\nundirected networks representing a Markov field. These graphical models are\nextended to model data analysis and empirical learning using the notation of\nplates. Graphical operations for simplifying and manipulating a problem are\nprovided including decomposition, differentiation, and the manipulation of\nprobability models from the exponential family. Two standard algorithm schemas\nfor learning are reviewed in a graphical framework: Gibbs sampling and the\nexpectation maximization algorithm. Using these operations and schemas, some\npopular algorithms can be synthesized from their graphical specification. This\nincludes versions of linear regression, techniques for feed-forward networks,\nand learning Gaussian and discrete Bayesian networks from data. The paper\nconcludes by sketching some implications for data analysis and summarizing how\nsome popular algorithms fall within the framework presented. The main original\ncontributions here are the decomposition techniques and the demonstration that\ngraphical models provide a framework for understanding and developing complex\nlearning algorithms.",
+        "authors": [
+            "W. L. Buntine"
+        ],
+        "arxiv_id": "9412102v1",
+        "url": "http://arxiv.org/abs/cs/9412102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9412102v1"
+    },
+    {
+        "title": "Total-Order and Partial-Order Planning: A Comparative Analysis",
+        "summary": "For many years, the intuitions underlying partial-order planning were largely\ntaken for granted. Only in the past few years has there been renewed interest\nin the fundamental principles underlying this paradigm. In this paper, we\npresent a rigorous comparative analysis of partial-order and total-order\nplanning by focusing on two specific planners that can be directly compared. We\nshow that there are some subtle assumptions that underly the wide-spread\nintuitions regarding the supposed efficiency of partial-order planning. For\ninstance, the superiority of partial-order planning can depend critically upon\nthe search strategy and the structure of the search space. Understanding the\nunderlying assumptions is crucial for constructing efficient planners.",
+        "authors": [
+            "S. Minton",
+            "J. Bresina",
+            "M. Drummond"
+        ],
+        "arxiv_id": "9412103v1",
+        "url": "http://arxiv.org/abs/cs/9412103v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9412103v1"
+    },
+    {
+        "title": "Solving Multiclass Learning Problems via Error-Correcting Output Codes",
+        "summary": "Multiclass learning problems involve finding a definition for an unknown\nfunction f(x) whose range is a discrete set containing k &gt 2 values (i.e., k\n``classes''). The definition is acquired by studying collections of training\nexamples of the form [x_i, f (x_i)]. Existing approaches to multiclass learning\nproblems include direct application of multiclass algorithms such as the\ndecision-tree algorithms C4.5 and CART, application of binary concept learning\nalgorithms to learn individual binary functions for each of the k classes, and\napplication of binary concept learning algorithms with distributed output\nrepresentations. This paper compares these three approaches to a new technique\nin which error-correcting codes are employed as a distributed output\nrepresentation. We show that these output representations improve the\ngeneralization performance of both C4.5 and backpropagation on a wide range of\nmulticlass learning tasks. We also demonstrate that this approach is robust\nwith respect to changes in the size of the training sample, the assignment of\ndistributed representations to particular classes, and the application of\noverfitting avoidance techniques such as decision-tree pruning. Finally, we\nshow that---like the other methods---the error-correcting code technique can\nprovide reliable class probability estimates. Taken together, these results\ndemonstrate that error-correcting output codes provide a general-purpose method\nfor improving the performance of inductive learning programs on multiclass\nproblems.",
+        "authors": [
+            "T. G. Dietterich",
+            "G. Bakiri"
+        ],
+        "arxiv_id": "9501101v1",
+        "url": "http://arxiv.org/abs/cs/9501101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9501101v1"
+    },
+    {
+        "title": "A Domain-Independent Algorithm for Plan Adaptation",
+        "summary": "The paradigms of transformational planning, case-based planning, and plan\ndebugging all involve a process known as plan adaptation - modifying or\nrepairing an old plan so it solves a new problem. In this paper we provide a\ndomain-independent algorithm for plan adaptation, demonstrate that it is sound,\ncomplete, and systematic, and compare it to other adaptation algorithms in the\nliterature. Our approach is based on a view of planning as searching a graph of\npartial plans. Generative planning starts at the graph's root and moves from\nnode to node using plan-refinement operators. In planning by adaptation, a\nlibrary plan - an arbitrary node in the plan graph - is the starting point for\nthe search, and the plan-adaptation algorithm can apply both the same\nrefinement operators available to a generative planner and can also retract\nconstraints and steps from the plan. Our algorithm's completeness ensures that\nthe adaptation algorithm will eventually search the entire graph and its\nsystematicity ensures that it will do so without redundantly searching any\nparts of the graph.",
+        "authors": [
+            "S. Hanks",
+            "D. S. Weld"
+        ],
+        "arxiv_id": "9501102v1",
+        "url": "http://arxiv.org/abs/cs/9501102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9501102v1"
+    },
+    {
+        "title": "Truncating Temporal Differences: On the Efficient Implementation of\n  TD(lambda) for Reinforcement Learning",
+        "summary": "Temporal difference (TD) methods constitute a class of methods for learning\npredictions in multi-step prediction problems, parameterized by a recency\nfactor lambda. Currently the most important application of these methods is to\ntemporal credit assignment in reinforcement learning. Well known reinforcement\nlearning algorithms, such as AHC or Q-learning, may be viewed as instances of\nTD learning. This paper examines the issues of the efficient and general\nimplementation of TD(lambda) for arbitrary lambda, for use with reinforcement\nlearning algorithms optimizing the discounted sum of rewards. The traditional\napproach, based on eligibility traces, is argued to suffer from both\ninefficiency and lack of generality. The TTD (Truncated Temporal Differences)\nprocedure is proposed as an alternative, that indeed only approximates\nTD(lambda), but requires very little computation per action and can be used\nwith arbitrary function representation methods. The idea from which it is\nderived is fairly simple and not new, but probably unexplored so far.\nEncouraging experimental results are presented, suggesting that using lambda\n&gt 0 with the TTD procedure allows one to obtain a significant learning\nspeedup at essentially the same cost as usual TD(0) learning.",
+        "authors": [
+            "P. Cichosz"
+        ],
+        "arxiv_id": "9501103v1",
+        "url": "http://arxiv.org/abs/cs/9501103v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9501103v1"
+    },
+    {
+        "title": "Cost-Sensitive Classification: Empirical Evaluation of a Hybrid Genetic\n  Decision Tree Induction Algorithm",
+        "summary": "This paper introduces ICET, a new algorithm for cost-sensitive\nclassification. ICET uses a genetic algorithm to evolve a population of biases\nfor a decision tree induction algorithm. The fitness function of the genetic\nalgorithm is the average cost of classification when using the decision tree,\nincluding both the costs of tests (features, measurements) and the costs of\nclassification errors. ICET is compared here with three other algorithms for\ncost-sensitive classification - EG2, CS-ID3, and IDX - and also with C4.5,\nwhich classifies without regard to cost. The five algorithms are evaluated\nempirically on five real-world medical datasets. Three sets of experiments are\nperformed. The first set examines the baseline performance of the five\nalgorithms on the five datasets and establishes that ICET performs\nsignificantly better than its competitors. The second set tests the robustness\nof ICET under a variety of conditions and shows that ICET maintains its\nadvantage. The third set looks at ICET's search in bias space and discovers a\nway to improve the search.",
+        "authors": [
+            "P. D. Turney"
+        ],
+        "arxiv_id": "9503102v1",
+        "url": "http://arxiv.org/abs/cs/9503102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9503102v1"
+    },
+    {
+        "title": "Rerepresenting and Restructuring Domain Theories: A Constructive\n  Induction Approach",
+        "summary": "Theory revision integrates inductive learning and background knowledge by\ncombining training examples with a coarse domain theory to produce a more\naccurate theory. There are two challenges that theory revision and other\ntheory-guided systems face. First, a representation language appropriate for\nthe initial theory may be inappropriate for an improved theory. While the\noriginal representation may concisely express the initial theory, a more\naccurate theory forced to use that same representation may be bulky,\ncumbersome, and difficult to reach. Second, a theory structure suitable for a\ncoarse domain theory may be insufficient for a fine-tuned theory. Systems that\nproduce only small, local changes to a theory have limited value for\naccomplishing complex structural alterations that may be required.\nConsequently, advanced theory-guided learning systems require flexible\nrepresentation and flexible structure. An analysis of various theory revision\nsystems and theory-guided learning systems reveals specific strengths and\nweaknesses in terms of these two desired properties. Designed to capture the\nunderlying qualities of each system, a new system uses theory-guided\nconstructive induction. Experiments in three domains show improvement over\nprevious theory-guided systems. This leads to a study of the behavior,\nlimitations, and potential of theory-guided constructive induction.",
+        "authors": [
+            "S. K. Donoho",
+            "L. A. Rendell"
+        ],
+        "arxiv_id": "9504101v1",
+        "url": "http://arxiv.org/abs/cs/9504101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9504101v1"
+    },
+    {
+        "title": "Using Pivot Consistency to Decompose and Solve Functional CSPs",
+        "summary": "Many studies have been carried out in order to increase the search efficiency\nof constraint satisfaction problems; among them, some make use of structural\nproperties of the constraint network; others take into account semantic\nproperties of the constraints, generally assuming that all the constraints\npossess the given property. In this paper, we propose a new decomposition\nmethod benefiting from both semantic properties of functional constraints (not\nbijective constraints) and structural properties of the network; furthermore,\nnot all the constraints need to be functional. We show that under some\nconditions, the existence of solutions can be guaranteed. We first characterize\na particular subset of the variables, which we name a root set. We then\nintroduce pivot consistency, a new local consistency which is a weak form of\npath consistency and can be achieved in O(n^2d^2) complexity (instead of\nO(n^3d^3) for path consistency), and we present associated properties; in\nparticular, we show that any consistent instantiation of the root set can be\nlinearly extended to a solution, which leads to the presentation of the\naforementioned new method for solving by decomposing functional CSPs.",
+        "authors": [
+            "P. David"
+        ],
+        "arxiv_id": "9505101v1",
+        "url": "http://arxiv.org/abs/cs/9505101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9505101v1"
+    },
+    {
+        "title": "Adaptive Load Balancing: A Study in Multi-Agent Learning",
+        "summary": "We study the process of multi-agent reinforcement learning in the context of\nload balancing in a distributed system, without use of either central\ncoordination or explicit communication. We first define a precise framework in\nwhich to study adaptive load balancing, important features of which are its\nstochastic nature and the purely local information available to individual\nagents. Given this framework, we show illuminating results on the interplay\nbetween basic adaptive behavior parameters and their effect on system\nefficiency. We then investigate the properties of adaptive load balancing in\nheterogeneous populations, and address the issue of exploration vs.\nexploitation in that context. Finally, we show that naive use of communication\nmay not improve, and might even harm system efficiency.",
+        "authors": [
+            "A. Schaerf",
+            "Y. Shoham",
+            "M. Tennenholtz"
+        ],
+        "arxiv_id": "9505102v1",
+        "url": "http://arxiv.org/abs/cs/9505102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9505102v1"
+    },
+    {
+        "title": "Provably Bounded-Optimal Agents",
+        "summary": "Since its inception, artificial intelligence has relied upon a theoretical\nfoundation centered around perfect rationality as the desired property of\nintelligent systems. We argue, as others have done, that this foundation is\ninadequate because it imposes fundamentally unsatisfiable requirements. As a\nresult, there has arisen a wide gap between theory and practice in AI,\nhindering progress in the field. We propose instead a property called bounded\noptimality. Roughly speaking, an agent is bounded-optimal if its program is a\nsolution to the constrained optimization problem presented by its architecture\nand the task environment. We show how to construct agents with this property\nfor a simple class of machine architectures in a broad class of real-time\nenvironments. We illustrate these results using a simple model of an automated\nmail sorting facility. We also define a weaker property, asymptotic bounded\noptimality (ABO), that generalizes the notion of optimality in classical\ncomplexity theory. We then construct universal ABO programs, i.e., programs\nthat are ABO no matter what real-time constraints are applied. Universal ABO\nprograms can be used as building blocks for more complex systems. We conclude\nwith a discussion of the prospects for bounded optimality as a theoretical\nbasis for AI, and relate it to similar trends in philosophy, economics, and\ngame theory.",
+        "authors": [
+            "S. J. Russell",
+            "D. Subramanian"
+        ],
+        "arxiv_id": "9505103v1",
+        "url": "http://arxiv.org/abs/cs/9505103v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9505103v1"
+    },
+    {
+        "title": "Pac-Learning Recursive Logic Programs: Efficient Algorithms",
+        "summary": "We present algorithms that learn certain classes of function-free recursive\nlogic programs in polynomial time from equivalence queries. In particular, we\nshow that a single k-ary recursive constant-depth determinate clause is\nlearnable. Two-clause programs consisting of one learnable recursive clause and\none constant-depth determinate non-recursive clause are also learnable, if an\nadditional ``basecase'' oracle is assumed. These results immediately imply the\npac-learnability of these classes. Although these classes of learnable\nrecursive programs are very constrained, it is shown in a companion paper that\nthey are maximally general, in that generalizing either class in any natural\nway leads to a computationally difficult learning problem. Thus, taken together\nwith its companion paper, this paper establishes a boundary of efficient\nlearnability for recursive logic programs.",
+        "authors": [
+            "W. W. Cohen"
+        ],
+        "arxiv_id": "9505104v1",
+        "url": "http://arxiv.org/abs/cs/9505104v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9505104v1"
+    },
+    {
+        "title": "Pac-learning Recursive Logic Programs: Negative Results",
+        "summary": "In a companion paper it was shown that the class of constant-depth\ndeterminate k-ary recursive clauses is efficiently learnable. In this paper we\npresent negative results showing that any natural generalization of this class\nis hard to learn in Valiant's model of pac-learnability. In particular, we show\nthat the following program classes are cryptographically hard to learn:\nprograms with an unbounded number of constant-depth linear recursive clauses;\nprograms with one constant-depth determinate clause containing an unbounded\nnumber of recursive calls; and programs with one linear recursive clause of\nconstant locality. These results immediately imply the non-learnability of any\nmore general class of programs. We also show that learning a constant-depth\ndeterminate program with either two linear recursive clauses or one linear\nrecursive clause and one non-recursive clause is as hard as learning boolean\nDNF. Together with positive results from the companion paper, these negative\nresults establish a boundary of efficient learnability for recursive\nfunction-free clauses.",
+        "authors": [
+            "W. W. Cohen"
+        ],
+        "arxiv_id": "9505105v1",
+        "url": "http://arxiv.org/abs/cs/9505105v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9505105v1"
+    },
+    {
+        "title": "FLECS: Planning with a Flexible Commitment Strategy",
+        "summary": "There has been evidence that least-commitment planners can efficiently handle\nplanning problems that involve difficult goal interactions. This evidence has\nled to the common belief that delayed-commitment is the \"best\" possible\nplanning strategy. However, we recently found evidence that eager-commitment\nplanners can handle a variety of planning problems more efficiently, in\nparticular those with difficult operator choices. Resigned to the futility of\ntrying to find a universally successful planning strategy, we devised a planner\nthat can be used to study which domains and problems are best for which\nplanning strategies. In this article we introduce this new planning algorithm,\nFLECS, which uses a FLExible Commitment Strategy with respect to plan-step\norderings. It is able to use any strategy from delayed-commitment to\neager-commitment. The combination of delayed and eager operator-ordering\ncommitments allows FLECS to take advantage of the benefits of explicitly using\na simulated execution state and reasoning about planning constraints. FLECS can\nvary its commitment strategy across different problems and domains, and also\nduring the course of a single planning problem. FLECS represents a novel\ncontribution to planning in that it explicitly provides the choice of which\ncommitment strategy to use while planning. FLECS provides a framework to\ninvestigate the mapping from planning domains and problems to efficient\nplanning strategies.",
+        "authors": [
+            "M. Veloso",
+            "P. Stone"
+        ],
+        "arxiv_id": "9506101v1",
+        "url": "http://arxiv.org/abs/cs/9506101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9506101v1"
+    },
+    {
+        "title": "Induction of First-Order Decision Lists: Results on Learning the Past\n  Tense of English Verbs",
+        "summary": "This paper presents a method for inducing logic programs from examples that\nlearns a new class of concepts called first-order decision lists, defined as\nordered lists of clauses each ending in a cut. The method, called FOIDL, is\nbased on FOIL (Quinlan, 1990) but employs intensional background knowledge and\navoids the need for explicit negative examples. It is particularly useful for\nproblems that involve rules with specific exceptions, such as learning the\npast-tense of English verbs, a task widely studied in the context of the\nsymbolic/connectionist debate. FOIDL is able to learn concise, accurate\nprograms for this problem from significantly fewer examples than previous\nmethods (both connectionist and symbolic).",
+        "authors": [
+            "R. J. Mooney",
+            "M. E. Califf"
+        ],
+        "arxiv_id": "9506102v1",
+        "url": "http://arxiv.org/abs/cs/9506102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9506102v1"
+    },
+    {
+        "title": "Building and Refining Abstract Planning Cases by Change of\n  Representation Language",
+        "summary": "ion is one of the most promising approaches to improve the performance of\nproblem solvers. In several domains abstraction by dropping sentences of a\ndomain description -- as used in most hierarchical planners -- has proven\nuseful. In this paper we present examples which illustrate significant\ndrawbacks of abstraction by dropping sentences. To overcome these drawbacks, we\npropose a more general view of abstraction involving the change of\nrepresentation language. We have developed a new abstraction methodology and a\nrelated sound and complete learning algorithm that allows the complete change\nof representation language of planning cases from concrete to abstract.\nHowever, to achieve a powerful change of the representation language, the\nabstract language itself as well as rules which describe admissible ways of\nabstracting states must be provided in the domain model. This new abstraction\napproach is the core of Paris (Plan Abstraction and Refinement in an Integrated\nSystem), a system in which abstract planning cases are automatically learned\nfrom given concrete cases. An empirical study in the domain of process planning\nin mechanical engineering shows significant advantages of the proposed\nreasoning from abstract cases over classical hierarchical planning.",
+        "authors": [
+            "R. Bergmann",
+            "W. Wilke"
+        ],
+        "arxiv_id": "9507101v1",
+        "url": "http://arxiv.org/abs/cs/9507101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9507101v1"
+    },
+    {
+        "title": "Using Qualitative Hypotheses to Identify Inaccurate Data",
+        "summary": "Identifying inaccurate data has long been regarded as a significant and\ndifficult problem in AI. In this paper, we present a new method for identifying\ninaccurate data on the basis of qualitative correlations among related data.\nFirst, we introduce the definitions of related data and qualitative\ncorrelations among related data. Then we put forward a new concept called\nsupport coefficient function (SCF). SCF can be used to extract, represent, and\ncalculate qualitative correlations among related data within a dataset. We\npropose an approach to determining dynamic shift intervals of inaccurate data,\nand an approach to calculating possibility of identifying inaccurate data,\nrespectively. Both of the approaches are based on SCF. Finally we present an\nalgorithm for identifying inaccurate data by using qualitative correlations\namong related data as confirmatory or disconfirmatory evidence. We have\ndeveloped a practical system for interpreting infrared spectra by applying the\nmethod, and have fully tested the system against several hundred real spectra.\nThe experimental results show that the method is significantly better than the\nconventional methods used in many similar systems.",
+        "authors": [
+            "Q. Zhao",
+            "T. Nishida"
+        ],
+        "arxiv_id": "9508101v1",
+        "url": "http://arxiv.org/abs/cs/9508101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9508101v1"
+    },
+    {
+        "title": "An Integrated Framework for Learning and Reasoning",
+        "summary": "Learning and reasoning are both aspects of what is considered to be\nintelligence. Their studies within AI have been separated historically,\nlearning being the topic of machine learning and neural networks, and reasoning\nfalling under classical (or symbolic) AI. However, learning and reasoning are\nin many ways interdependent. This paper discusses the nature of some of these\ninterdependencies and proposes a general framework called FLARE, that combines\ninductive learning using prior knowledge together with reasoning in a\npropositional setting. Several examples that test the framework are presented,\nincluding classical induction, many important reasoning protocols and two\nsimple expert systems.",
+        "authors": [
+            "C. G. Giraud-Carrier",
+            "T. R. Martinez"
+        ],
+        "arxiv_id": "9508102v1",
+        "url": "http://arxiv.org/abs/cs/9508102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9508102v1"
+    },
+    {
+        "title": "Diffusion of Context and Credit Information in Markovian Models",
+        "summary": "This paper studies the problem of ergodicity of transition probability\nmatrices in Markovian models, such as hidden Markov models (HMMs), and how it\nmakes very difficult the task of learning to represent long-term context for\nsequential data. This phenomenon hurts the forward propagation of long-term\ncontext information, as well as learning a hidden state representation to\nrepresent long-term context, which depends on propagating credit information\nbackwards in time. Using results from Markov chain theory, we show that this\nproblem of diffusion of context and credit is reduced when the transition\nprobabilities approach 0 or 1, i.e., the transition probability matrices are\nsparse and the model essentially deterministic. The results found in this paper\napply to learning approaches based on continuous optimization, such as gradient\ndescent and the Baum-Welch algorithm.",
+        "authors": [
+            "Y. Bengio",
+            "P. Frasconi"
+        ],
+        "arxiv_id": "9510101v1",
+        "url": "http://arxiv.org/abs/cs/9510101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9510101v1"
+    },
+    {
+        "title": "Improving Connectionist Energy Minimization",
+        "summary": "Symmetric networks designed for energy minimization such as Boltzman machines\nand Hopfield nets are frequently investigated for use in optimization,\nconstraint satisfaction and approximation of NP-hard problems. Nevertheless,\nfinding a global solution (i.e., a global minimum for the energy function) is\nnot guaranteed and even a local solution may take an exponential number of\nsteps. We propose an improvement to the standard local activation function used\nfor such networks. The improved algorithm guarantees that a global minimum is\nfound in linear time for tree-like subnetworks. The algorithm, called activate,\nis uniform and does not assume that the network is tree-like. It can identify\ntree-like subnetworks even in cyclic topologies (arbitrary networks) and avoid\nlocal minima along these trees. For acyclic networks, the algorithm is\nguaranteed to converge to a global minimum from any initial state of the system\n(self-stabilization) and remains correct under various types of schedulers. On\nthe negative side, we show that in the presence of cycles, no uniform algorithm\nexists that guarantees optimality even under a sequential asynchronous\nscheduler. An asynchronous scheduler can activate only one unit at a time while\na synchronous scheduler can activate any number of units in a single time step.\nIn addition, no uniform algorithm exists to optimize even acyclic networks when\nthe scheduler is synchronous. Finally, we show how the algorithm can be\nimproved using the cycle-cutset scheme. The general algorithm, called\nactivate-with-cutset, improves over activate and has some performance\nguarantees that are related to the size of the network's cycle-cutset.",
+        "authors": [
+            "G. Pinkas",
+            "R. Dechter"
+        ],
+        "arxiv_id": "9510102v1",
+        "url": "http://arxiv.org/abs/cs/9510102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9510102v1"
+    },
+    {
+        "title": "Learning Membership Functions in a Function-Based Object Recognition\n  System",
+        "summary": "Functionality-based recognition systems recognize objects at the category\nlevel by reasoning about how well the objects support the expected function.\nSuch systems naturally associate a ``measure of goodness'' or ``membership\nvalue'' with a recognized object. This measure of goodness is the result of\ncombining individual measures, or membership values, from potentially many\nprimitive evaluations of different properties of the object's shape. A\nmembership function is used to compute the membership value when evaluating a\nprimitive of a particular physical property of an object. In previous versions\nof a recognition system known as Gruff, the membership function for each of the\nprimitive evaluations was hand-crafted by the system designer. In this paper,\nwe provide a learning component for the Gruff system, called Omlet, that\nautomatically learns membership functions given a set of example objects\nlabeled with their desired category measure. The learning algorithm is\ngenerally applicable to any problem in which low-level membership values are\ncombined through an and-or tree structure to give a final overall membership\nvalue.",
+        "authors": [
+            "K. Woods",
+            "D. Cook",
+            "L. Hall",
+            "K. Bowyer",
+            "L. Stark"
+        ],
+        "arxiv_id": "9510103v1",
+        "url": "http://arxiv.org/abs/cs/9510103v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9510103v1"
+    },
+    {
+        "title": "Flexibly Instructable Agents",
+        "summary": "This paper presents an approach to learning from situated, interactive\ntutorial instruction within an ongoing agent. Tutorial instruction is a\nflexible (and thus powerful) paradigm for teaching tasks because it allows an\ninstructor to communicate whatever types of knowledge an agent might need in\nwhatever situations might arise. To support this flexibility, however, the\nagent must be able to learn multiple kinds of knowledge from a broad range of\ninstructional interactions. Our approach, called situated explanation, achieves\nsuch learning through a combination of analytic and inductive techniques. It\ncombines a form of explanation-based learning that is situated for each\ninstruction with a full suite of contextually guided responses to incomplete\nexplanations. The approach is implemented in an agent called Instructo-Soar\nthat learns hierarchies of new tasks and other domain knowledge from\ninteractive natural language instructions. Instructo-Soar meets three key\nrequirements of flexible instructability that distinguish it from previous\nsystems: (1) it can take known or unknown commands at any instruction point;\n(2) it can handle instructions that apply to either its current situation or to\na hypothetical situation specified in language (as in, for instance,\nconditional instructions); and (3) it can learn, from instructions, each class\nof knowledge it uses to perform tasks.",
+        "authors": [
+            "S. B. Huffman",
+            "J. E. Laird"
+        ],
+        "arxiv_id": "9511101v1",
+        "url": "http://arxiv.org/abs/cs/9511101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9511101v1"
+    },
+    {
+        "title": "OPUS: An Efficient Admissible Algorithm for Unordered Search",
+        "summary": "OPUS is a branch and bound search algorithm that enables efficient admissible\nsearch through spaces for which the order of search operator application is not\nsignificant. The algorithm's search efficiency is demonstrated with respect to\nvery large machine learning search spaces. The use of admissible search is of\npotential value to the machine learning community as it means that the exact\nlearning biases to be employed for complex learning tasks can be precisely\nspecified and manipulated. OPUS also has potential for application in other\nareas of artificial intelligence, notably, truth maintenance.",
+        "authors": [
+            "G. I. Webb"
+        ],
+        "arxiv_id": "9512101v1",
+        "url": "http://arxiv.org/abs/cs/9512101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9512101v1"
+    },
+    {
+        "title": "Vision-Based Road Detection in Automotive Systems: A Real-Time\n  Expectation-Driven Approach",
+        "summary": "The main aim of this work is the development of a vision-based road detection\nsystem fast enough to cope with the difficult real-time constraints imposed by\nmoving vehicle applications. The hardware platform, a special-purpose massively\nparallel system, has been chosen to minimize system production and operational\ncosts. This paper presents a novel approach to expectation-driven low-level\nimage segmentation, which can be mapped naturally onto mesh-connected massively\nparallel SIMD architectures capable of handling hierarchical data structures.\nThe input image is assumed to contain a distorted version of a given template;\na multiresolution stretching process is used to reshape the original template\nin accordance with the acquired image content, minimizing a potential function.\nThe distorted template is the process output.",
+        "authors": [
+            "A. Broggi",
+            "S. Berte"
+        ],
+        "arxiv_id": "9512102v1",
+        "url": "http://arxiv.org/abs/cs/9512102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9512102v1"
+    },
+    {
+        "title": "Generalization of Clauses under Implication",
+        "summary": "In the area of inductive learning, generalization is a main operation, and\nthe usual definition of induction is based on logical implication. Recently\nthere has been a rising interest in clausal representation of knowledge in\nmachine learning. Almost all inductive learning systems that perform\ngeneralization of clauses use the relation theta-subsumption instead of\nimplication. The main reason is that there is a well-known and simple technique\nto compute least general generalizations under theta-subsumption, but not under\nimplication. However generalization under theta-subsumption is inappropriate\nfor learning recursive clauses, which is a crucial problem since recursion is\nthe basic program structure of logic programs. We note that implication between\nclauses is undecidable, and we therefore introduce a stronger form of\nimplication, called T-implication, which is decidable between clauses. We show\nthat for every finite set of clauses there exists a least general\ngeneralization under T-implication. We describe a technique to reduce\ngeneralizations under implication of a clause to generalizations under\ntheta-subsumption of what we call an expansion of the original clause. Moreover\nwe show that for every non-tautological clause there exists a T-complete\nexpansion, which means that every generalization under T-implication of the\nclause is reduced to a generalization under theta-subsumption of the expansion.",
+        "authors": [
+            "P. Idestam-Almquist"
+        ],
+        "arxiv_id": "9512103v1",
+        "url": "http://arxiv.org/abs/cs/9512103v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9512103v1"
+    },
+    {
+        "title": "Decision-Theoretic Foundations for Causal Reasoning",
+        "summary": "We present a definition of cause and effect in terms of decision-theoretic\nprimitives and thereby provide a principled foundation for causal reasoning.\nOur definition departs from the traditional view of causation in that causal\nassertions may vary with the set of decisions available. We argue that this\napproach provides added clarity to the notion of cause. Also in this paper, we\nexamine the encoding of causal relationships in directed acyclic graphs. We\ndescribe a special class of influence diagrams, those in canonical form, and\nshow its relationship to Pearl's representation of cause and effect. Finally,\nwe show how canonical form facilitates counterfactual reasoning.",
+        "authors": [
+            "D. Heckerman",
+            "R. Shachter"
+        ],
+        "arxiv_id": "9512104v1",
+        "url": "http://arxiv.org/abs/cs/9512104v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9512104v1"
+    },
+    {
+        "title": "Translating between Horn Representations and their Characteristic Models",
+        "summary": "Characteristic models are an alternative, model based, representation for\nHorn expressions. It has been shown that these two representations are\nincomparable and each has its advantages over the other. It is therefore\nnatural to ask what is the cost of translating, back and forth, between these\nrepresentations. Interestingly, the same translation questions arise in\ndatabase theory, where it has applications to the design of relational\ndatabases. This paper studies the computational complexity of these problems.\nOur main result is that the two translation problems are equivalent under\npolynomial reductions, and that they are equivalent to the corresponding\ndecision problem. Namely, translating is equivalent to deciding whether a given\nset of models is the set of characteristic models for a given Horn expression.\nWe also relate these problems to the hypergraph transversal problem, a well\nknown problem which is related to other applications in AI and for which no\npolynomial time algorithm is known. It is shown that in general our translation\nproblems are at least as hard as the hypergraph transversal problem, and in a\nspecial case they are equivalent to it.",
+        "authors": [
+            "R. Khardon"
+        ],
+        "arxiv_id": "9512105v1",
+        "url": "http://arxiv.org/abs/cs/9512105v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9512105v1"
+    },
+    {
+        "title": "Statistical Feature Combination for the Evaluation of Game Positions",
+        "summary": "This article describes an application of three well-known statistical methods\nin the field of game-tree search: using a large number of classified Othello\npositions, feature weights for evaluation functions with a\ngame-phase-independent meaning are estimated by means of logistic regression,\nFisher's linear discriminant, and the quadratic discriminant function for\nnormally distributed features. Thereafter, the playing strengths are compared\nby means of tournaments between the resulting versions of a world-class Othello\nprogram. In this application, logistic regression - which is used here for the\nfirst time in the context of game playing - leads to better results than the\nother approaches.",
+        "authors": [
+            "M. Buro"
+        ],
+        "arxiv_id": "9512106v1",
+        "url": "http://arxiv.org/abs/cs/9512106v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9512106v1"
+    },
+    {
+        "title": "Rule-based Machine Learning Methods for Functional Prediction",
+        "summary": "We describe a machine learning method for predicting the value of a\nreal-valued function, given the values of multiple input variables. The method\ninduces solutions from samples in the form of ordered disjunctive normal form\n(DNF) decision rules. A central objective of the method and representation is\nthe induction of compact, easily interpretable solutions. This rule-based\ndecision model can be extended to search efficiently for similar cases prior to\napproximating function values. Experimental results on real-world data\ndemonstrate that the new techniques are competitive with existing machine\nlearning and statistical methods and can sometimes yield superior regression\nperformance.",
+        "authors": [
+            "S. M. Weiss",
+            "N. Indurkhya"
+        ],
+        "arxiv_id": "9512107v1",
+        "url": "http://arxiv.org/abs/cs/9512107v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9512107v1"
+    },
+    {
+        "title": "The Design and Experimental Analysis of Algorithms for Temporal\n  Reasoning",
+        "summary": "Many applications -- from planning and scheduling to problems in molecular\nbiology -- rely heavily on a temporal reasoning component. In this paper, we\ndiscuss the design and empirical analysis of algorithms for a temporal\nreasoning system based on Allen's influential interval-based framework for\nrepresenting temporal information. At the core of the system are algorithms for\ndetermining whether the temporal information is consistent, and, if so, finding\none or more scenarios that are consistent with the temporal information. Two\nimportant algorithms for these tasks are a path consistency algorithm and a\nbacktracking algorithm. For the path consistency algorithm, we develop\ntechniques that can result in up to a ten-fold speedup over an already highly\noptimized implementation. For the backtracking algorithm, we develop variable\nand value ordering heuristics that are shown empirically to dramatically\nimprove the performance of the algorithm. As well, we show that a previously\nsuggested reformulation of the backtracking search problem can reduce the time\nand space requirements of the backtracking search. Taken together, the\ntechniques we develop allow a temporal reasoning component to solve problems\nthat are of practical size.",
+        "authors": [
+            "P. vanBeek",
+            "D. W. Manchak"
+        ],
+        "arxiv_id": "9601101v1",
+        "url": "http://arxiv.org/abs/cs/9601101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9601101v1"
+    },
+    {
+        "title": "Well-Founded Semantics for Extended Logic Programs with Dynamic\n  Preferences",
+        "summary": "The paper describes an extension of well-founded semantics for logic programs\nwith two types of negation. In this extension information about preferences\nbetween rules can be expressed in the logical language and derived dynamically.\nThis is achieved by using a reserved predicate symbol and a naming technique.\nConflicts among rules are resolved whenever possible on the basis of derived\npreference information. The well-founded conclusions of prioritized logic\nprograms can be computed in polynomial time. A legal reasoning example\nillustrates the usefulness of the approach.",
+        "authors": [
+            "G. Brewka"
+        ],
+        "arxiv_id": "9602101v1",
+        "url": "http://arxiv.org/abs/cs/9602101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9602101v1"
+    },
+    {
+        "title": "Logarithmic-Time Updates and Queries in Probabilistic Networks",
+        "summary": "Traditional databases commonly support efficient query and update procedures\nthat operate in time which is sublinear in the size of the database. Our goal\nin this paper is to take a first step toward dynamic reasoning in probabilistic\ndatabases with comparable efficiency. We propose a dynamic data structure that\nsupports efficient algorithms for updating and querying singly connected\nBayesian networks. In the conventional algorithm, new evidence is absorbed in\nO(1) time and queries are processed in time O(N), where N is the size of the\nnetwork. We propose an algorithm which, after a preprocessing phase, allows us\nto answer queries in time O(log N) at the expense of O(log N) time per evidence\nabsorption. The usefulness of sub-linear processing time manifests itself in\napplications requiring (near) real-time response over large probabilistic\ndatabases. We briefly discuss a potential application of dynamic probabilistic\nreasoning in computational biology.",
+        "authors": [
+            "A. L. Delcher",
+            "A. J. Grove",
+            "S. Kasif",
+            "J. Pearl"
+        ],
+        "arxiv_id": "9602102v1",
+        "url": "http://arxiv.org/abs/cs/9602102v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9602102v1"
+    },
+    {
+        "title": "Quantum Computing and Phase Transitions in Combinatorial Search",
+        "summary": "We introduce an algorithm for combinatorial search on quantum computers that\nis capable of significantly concentrating amplitude into solutions for some NP\nsearch problems, on average. This is done by exploiting the same aspects of\nproblem structure as used by classical backtrack methods to avoid unproductive\nsearch choices. This quantum algorithm is much more likely to find solutions\nthan the simple direct use of quantum parallelism. Furthermore, empirical\nevaluation on small problems shows this quantum algorithm displays the same\nphase transition behavior, and at the same location, as seen in many previously\nstudied classical search methods. Specifically, difficult problem instances are\nconcentrated near the abrupt change from underconstrained to overconstrained\nproblems.",
+        "authors": [
+            "T. Hogg"
+        ],
+        "arxiv_id": "9603101v1",
+        "url": "http://arxiv.org/abs/cs/9603101v1",
+        "pdf_link": "http://arxiv.org/pdf/cs/9603101v1"
+    }
+]
