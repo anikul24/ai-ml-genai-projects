@@ -1,0 +1,39 @@
+@media print {
+
+body { 
+    font-size: 12pt;
+    line-height: 110%;
+    min-width: 0; 
+}
+
+#page { width: 100%; }
+
+h1, h2, h3, h4, h5, h6, h7, address {
+    line-height: 120%;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
+
+p {
+    orphans: 2;
+    widows: 2;
+}
+
+table {
+    font-size: 10pt;
+}
+
+.row-12 {
+    overflow: visible;
+}
+
+#content {
+    overflow: visible;
+}
+
+#banner, #title-bar, #navlinks, #navlinks2 { 
+    display: none; 
+}
+
+}
+

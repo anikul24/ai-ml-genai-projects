@@ -1,0 +1,259 @@
+/* Social Security Administration
+ * Stylesheet for Social Security Handbook
+ * Created by: SSA, ORDP, OPPS 
+ * Last Modified: October 31, 2010
+ */
+#content { width: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: Verdana, sans-serif;
+    font-size: 1em;
+}
+h1.hbktoc    { 
+    background: white; 
+    border-bottom: solid black 3pt; 
+    color: darkblue; 
+    font-family: Verdana, sans-serif; 
+    font-size: 3em; 
+    padding-left: 2em; 
+    }
+h2.hbktoc    { 
+    background: white; 
+    border-bottom: solid black 3pt; 
+    color: darkblue;
+    font-family: Verdana, sans-serif; 
+    font-size: 2em; 
+    padding-bottom: 1em; 
+    }
+h1.chaptitle { 
+    background: white; 
+    border-bottom: solid black 2pt; 
+    border-top: solid black 2pt; 
+    color: rgb(0,96,0); 
+    font-family: Georgia, serif; 
+    font-size: 2em; 
+    padding-bottom: 0.2em;
+    }
+span.ctitlea { 
+    display: block;
+    float: left;
+    width: 5.5em;
+}
+span.ctitleb {
+    display: block;
+    padding-left: 6em;
+}
+h1.sectitle { 
+    background: white; 
+    color: darkblue; 
+    font-family: Georgia, serif;
+    font-size: 1.5em; 
+    font-weight: bold;
+    margin-left: 1em; 
+    padding-bottom: 0.2em; 
+    padding-left: 1em 
+    text-indent: -1em; 
+    }
+span.stitlea {
+    display: block;
+    float: left;
+    width: 3em;
+}
+span.stitleb {
+    display: block;
+    padding-left: 3.2em;
+}
+h2.question { 
+    font-size: 1.1em; 
+    font-style: italic;
+    font-weight: bold; 
+    font-family: Georgia, serif;
+    margin-left: 3em;
+    padding-bottom: 0.1em; 
+    padding-right: 1em; 
+    text-indent: -1.5em;
+    }
+span.qtitlea {
+    display: block;
+    float: left;
+    width: 3.8em;
+}
+span.qtitleb {
+    display: block;
+    padding-left: 4em;
+}
+h2.heading  { 
+    font-size: 1.2em; 
+    font-weight: bold; 
+    padding-bottom: 0.1em; 
+    }
+h2.chaptoc  { 
+    background: white; 
+    color: darkblue; 
+    font-size: 1.5em; 
+    font-weight: bold;
+    padding-bottom: 0em; 
+    text-align: center; 
+    }
+p.handbook {
+    margin-bottom: 0.2em;
+    text-indent: 1em;
+}
+.navlinks   { text-align: right; }
+.olist      { 
+    padding-bottom: 0.1em; 
+    padding-top: 0.1em; 
+    margin-bottom: 0.1em; 
+    margin-top: 0.1em; 
+    }
+.ulist      { 
+    padding-bottom: 0.1em; 
+    padding-top: 0.1em; 
+    margin-bottom: 0.1em; 
+    margin-top: 0.1em; 
+    }
+li p        { 
+    padding-top: 0em; 
+    padding-bottom: 0em;
+    margin-bottom: 0em; 
+    margin-top: 0em; 
+    }
+li          { 
+    margin-bottom: 0em; 
+    margin-top: 0em; 
+    padding-top: 0em; 
+    padding-bottom: 0em;
+    }
+div.index   {
+    margin-left: 3em;
+    margin-right: 3em;
+    }
+h1.idxletter { 
+    background: white; 
+    color: darkblue; 
+    font-family: Verdana, sans-serif;
+    font-size: 3em; 
+    padding-bottom: 0.2em; 
+    text-align: center; 
+    }
+p.idxtoc    {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    }
+p.idxitem   { 
+    margin-bottom: 0em; 
+    margin-top: 0em; 
+    padding-top: 0em; 
+    padding-bottom: 0em; 
+    }
+p.idxsubitm {
+    margin-bottom: 0em; 
+    margin-top: 0em; 
+    margin-left: 2em;
+    padding-top: 0em; 
+    padding-bottom: 0em; 
+    }
+p.idxsee    {
+    font-weight: bold;
+    margin-left: 2em;
+    }
+p.idxsee2   {
+    font-weight: bold;
+    margin-left: 3em;
+    }
+p.revised   {
+    margin-top: 0.2em;
+    font-style: italic; 
+    }
+p           { 
+    margin-bottom: 0.1em; 
+    margin-top: 0.1em;
+    padding-bottom: 0em; 
+    padding-top: 0em;
+    }
+address     { 
+    font-style: italic; 
+    margin-bottom: 1em; 
+    margin-left: 1em; 
+    margin-top: 1em;
+    }
+cite        { 
+    font-style: italic; 
+    }
+.emphasis   { 
+    font-weight: bold; 
+    font-style: normal; 
+    }
+table.hbktoc  { 
+    margin-right: 20%; 
+    margin-left: 20%; 
+    cell-spacing: 0.25em; 
+    }
+table.chaptoc { 
+    margin-right: 20%; 
+    margin-left: 20%; 
+    cell-spacing: 0.25em; 
+    }
+td.chaptoc  { 
+    padding-right: 0.5em; 
+    cell-spacing: 0.25em; 
+    }
+td.hbktoc   { 
+    padding-right: 1em; 
+    cell-spacing: 0.25em; 
+    font-size: 1.2em; 
+    }
+td.toctopic {
+    font-weight: bold;
+}
+table.cals  { 
+    border-bottom: solid black 2pt; 
+    border-collapse: collapse; 
+    border-color: black; 
+    border-top: solid black 2pt;
+    cell-spacing: 0pt; 
+    margin: 0.5em;
+    margin-top: 0.5em; 
+    padding-bottom: 0.5em; 
+    padding-top: 0.5em;
+    }
+thead       { 
+    border-bottom: solid black 2pt; 
+    background-color: lightblue; 
+    }
+td          { 
+    padding-left: 0.5em; 
+    padding-right: 0.5em; 
+    border-color: black; 
+    }
+th          { 
+    background-color: lightblue; 
+    border-color: black;
+    padding-left: 0.5em; 
+    padding-right: 0.5em; 
+    }
+caption     { 
+    font-weight: bold; 
+    font-size: 1.1em; 
+    text-align: center; 
+    padding-bottom: 0.2em; 
+    margin-bottom: 0.5em; 
+    }
+ul.subitems { 
+    padding-bottom: 0em; 
+    margin-bottom: 0.1em; 
+    padding-top: 0em; 
+    margin-top: 0em; 
+    margin-left: 1.5em; 
+    list-style: none; 
+    }
+hr  { 
+    color: darkblue; 
+    height: 2pt; 
+    clear: right 
+    }
+
+a.handbook:link      { color: blue; background: inherit; }
+a.handbook:visited   { color: blue; background: inherit; }
+a.handbook:hover     { color: blue; background: yellow; }
+a.handbook:active    { color: red; background: inherit; }

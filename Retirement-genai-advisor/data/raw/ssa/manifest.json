@@ -1,0 +1,219 @@
+[
+  {
+    "id": "ssa-0",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook-toc.html#content",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook-toc.html#content"
+    }
+  },
+  {
+    "id": "ssa-1",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.html"
+    }
+  },
+  {
+    "id": "ssa-2",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook-preface.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook-preface.html"
+    }
+  },
+  {
+    "id": "ssa-3",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.01/handbook-toc01.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.01/handbook-toc01.html"
+    }
+  },
+  {
+    "id": "ssa-4",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.02/handbook-toc02.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.02/handbook-toc02.html"
+    }
+  },
+  {
+    "id": "ssa-5",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.03/handbook-toc03.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.03/handbook-toc03.html"
+    }
+  },
+  {
+    "id": "ssa-6",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.04/handbook-toc04.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.04/handbook-toc04.html"
+    }
+  },
+  {
+    "id": "ssa-7",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.05/handbook-toc05.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.05/handbook-toc05.html"
+    }
+  },
+  {
+    "id": "ssa-8",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.06/handbook-toc06.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.06/handbook-toc06.html"
+    }
+  },
+  {
+    "id": "ssa-9",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.07/handbook-toc07.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.07/handbook-toc07.html"
+    }
+  },
+  {
+    "id": "ssa-10",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.08/handbook-toc08.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.08/handbook-toc08.html"
+    }
+  },
+  {
+    "id": "ssa-11",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.09/handbook-toc09.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.09/handbook-toc09.html"
+    }
+  },
+  {
+    "id": "ssa-12",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.10/handbook-toc10.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.10/handbook-toc10.html"
+    }
+  },
+  {
+    "id": "ssa-13",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.11/handbook-toc11.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.11/handbook-toc11.html"
+    }
+  },
+  {
+    "id": "ssa-14",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.12/handbook-toc12.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.12/handbook-toc12.html"
+    }
+  },
+  {
+    "id": "ssa-15",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.13/handbook-toc13.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.13/handbook-toc13.html"
+    }
+  },
+  {
+    "id": "ssa-16",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.14/handbook-toc14.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.14/handbook-toc14.html"
+    }
+  },
+  {
+    "id": "ssa-17",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.15/handbook-toc15.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.15/handbook-toc15.html"
+    }
+  },
+  {
+    "id": "ssa-18",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.16/handbook-toc16.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.16/handbook-toc16.html"
+    }
+  },
+  {
+    "id": "ssa-19",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.17/handbook-toc17.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.17/handbook-toc17.html"
+    }
+  },
+  {
+    "id": "ssa-20",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.18/handbook-toc18.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.18/handbook-toc18.html"
+    }
+  },
+  {
+    "id": "ssa-21",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.19/handbook-toc19.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.19/handbook-toc19.html"
+    }
+  },
+  {
+    "id": "ssa-22",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.20/handbook-toc20.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.20/handbook-toc20.html"
+    }
+  },
+  {
+    "id": "ssa-23",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.21/handbook-toc21.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.21/handbook-toc21.html"
+    }
+  },
+  {
+    "id": "ssa-24",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.22/handbook-toc22.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.22/handbook-toc22.html"
+    }
+  },
+  {
+    "id": "ssa-25",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.23/handbook-toc23.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.23/handbook-toc23.html"
+    }
+  },
+  {
+    "id": "ssa-26",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.24/handbook-toc24.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.24/handbook-toc24.html"
+    }
+  },
+  {
+    "id": "ssa-27",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.25/handbook-toc25.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.25/handbook-toc25.html"
+    }
+  },
+  {
+    "id": "ssa-28",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.26/handbook-toc26.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.26/handbook-toc26.html"
+    }
+  },
+  {
+    "id": "ssa-29",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook.27/handbook-toc27.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook.27/handbook-toc27.html"
+    }
+  },
+  {
+    "id": "ssa-30",
+    "meta": {
+      "source": "https://www.ssa.gov/OP_Home/handbook/handbook-index.html",
+      "origin_url": "https://www.ssa.gov/OP_Home/handbook/handbook-index.html"
+    }
+  }
+]
