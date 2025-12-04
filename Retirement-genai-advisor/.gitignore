@@ -1,0 +1,32 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Environment files
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs and artifacts
+logs/
+artifacts/
+*.log
+
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
+notebook/data/
+
+# Virtual environments
+venv/
+.env/
+*.egg-info/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+

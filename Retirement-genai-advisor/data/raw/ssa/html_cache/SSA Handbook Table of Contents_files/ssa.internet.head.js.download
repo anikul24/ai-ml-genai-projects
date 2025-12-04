@@ -1,0 +1,17 @@
+// update <html class> to indicate JS support
+document.documentElement.classList.remove('no-js');
+
+// add google tag manager <script>
+var dataGA = document.documentElement.dataset.ga || 'on';
+if (dataGA === 'on') {
+  var checkHostname = window.location.hostname;
+  var noGA = ['127.0.0.1', 'localhost', 'dev-ocomm.ba.ssa.gov', 'mwww.ba.ssa.gov', 'www-origin.ssa.gov'];
+  var isInternet = ['www.ssa.gov', 'faq.ssa.gov', 'secure.ssa.gov'];
+  if (!noGA.includes(checkHostname)) {
+    if (isInternet.includes(checkHostname)) {
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5GQXH7Q');
+    } else {
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-MPS5H899');
+    }
+  }
+}
